@@ -1,0 +1,23 @@
+# Glossary
+
+- **AUC / ROC-AUC:** Area under the receiver operating characteristic curve.
+- **Average precision:** A summary of the precision-recall curve.
+- **Batch normalization:** Normalizes intermediate activations during training.
+- **Binary cross-entropy:** Loss for independent binary target outputs.
+- **CNN:** Convolutional neural network, commonly used for image data.
+- **EfficientNetV2B0:** A convolutional architecture used as a pretrained backbone.
+- **Epoch:** One pass through the training dataset.
+- **Fine-tuning:** Updating some pretrained model layers on the target task.
+- **Focal loss:** A loss that reduces the contribution of easy examples.
+- **Grad-CAM:** Gradient-based class activation visualization.
+- **Macro average:** Average across labels, weighting each label equally.
+- **Micro average:** Aggregate counts across labels before computing a metric.
+- **Multi-hot target:** Binary vector with more than one positive entry permitted.
+- **Multi-label classification:** Predicting several non-exclusive labels per input.
+- **Patient leakage:** Correlated images from one patient appearing across splits.
+- **Precision:** Fraction of positive predictions that are correct.
+- **Recall:** Fraction of true positives recovered by the model.
+- **Sigmoid:** Maps each output logit to a value between zero and one.
+- **Transfer learning:** Reusing representations learned on a source task.
+- **Validation set:** Data used for model selection and tuning.
+- **Test set:** Held-out data reserved for final evaluation.
