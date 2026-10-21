@@ -160,11 +160,95 @@ single forward pass.
 - Try larger EfficientNetV2 variants or ensembling multiple backbones.
 - Explore label-smoothing or asymmetric loss variants for extreme imbalance.
 
-## 17. Folder Structure
-## Suggested reading order
-1. `PROJECT_REPORT.md`
-2. `METHODOLOGY.md`
-3. `EXPERIMENTS_AND_RESULTS.md`
-4. `LIMITATIONS_AND_ETHICS.md`
-5. `FUTURE_WORK.md`
-6. `REPRODUCIBILITY_CHECKLIST.md`
+## 17. Repository Structure
+
+```text
+MUJ-DS-2430010318/
+├── README.md
+├── assignments/
+├── capstone/
+│   ├── PROJECT_REPORT.md
+│   ├── METHODOLOGY.md
+│   ├── EXPERIMENTS_AND_RESULTS.md
+│   ├── LIMITATIONS_AND_ETHICS.md
+│   ├── FUTURE_WORK.md
+│   └── REPRODUCIBILITY_CHECKLIST.md
+├── code/
+│   ├── README.md
+│   ├── RUN_GUIDE.md
+│   └── requirements.txt
+├── presentations/
+└── resources/
+    ├── README.md
+    └── results/
+```
+
+*Note: This is the intended structure. Actual filenames may differ depending on the files currently committed to the repository.*
+
+## 18. Recommended Reading Order
+
+For reviewers, evaluators and anyone reproducing the project, the following order is recommended.
+
+1. **`README.md`** — Project overview, objectives, dataset, models, findings and limitations.
+2. **`capstone/PROJECT_REPORT.md`** — Complete project report.
+3. **`capstone/METHODOLOGY.md`** — Dataset preparation, patient-level splitting, preprocessing, model architecture, training and evaluation methods.
+4. **`code/README.md`** — Overview of the implementation and code organisation.
+5. **`code/RUN_GUIDE.md`** — Instructions for setting up and running the project.
+6. **`capstone/EXPERIMENTS_AND_RESULTS.md`** — Model comparisons, evaluation metrics and experimental findings.
+7. **`resources/results/`** — Machine-readable evaluation results and per-disease metrics, where available.
+8. **`capstone/LIMITATIONS_AND_ETHICS.md`** — Dataset limitations, class imbalance, generalisation concerns and responsible use.
+9. **`capstone/FUTURE_WORK.md`** — Potential improvements and further experiments.
+10. **`capstone/REPRODUCIBILITY_CHECKLIST.md`** — Checklist for reproducing the documented experiments.
+11. **`presentations/`** — Project presentation.
+12. **`resources/README.md`** — Dataset information, references and supporting resources.
+
+**For a quick review:** read this README, the project report, the methodology, the final results and the limitations section first.
+
+## 19. System Requirements
+
+### Hardware
+
+| Component | Recommended specification |
+|---|---|
+| Processor | Modern multi-core CPU |
+| RAM | 8 GB minimum as a practical starting point; 12–16 GB recommended |
+| GPU | NVIDIA GPU with compatible TensorFlow/CUDA support, or a Google Colab GPU runtime |
+| Storage | Several GB of free space for the dataset, preprocessing files, checkpoints and outputs |
+| Display | Standard display suitable for inspecting images, plots and Grad-CAM visualisations |
+
+CPU-only execution may be possible, but training can take considerably longer. Actual requirements depend on image resolution, batch size, available memory and the training configuration.
+
+### Software
+
+- Python version compatible with the TensorFlow version specified in `code/requirements.txt`.
+- TensorFlow and Keras for model development and training.
+- NumPy for numerical operations.
+- pandas for data handling and evaluation tables.
+- scikit-learn for evaluation metrics.
+- Matplotlib for plots and visualisations.
+- Jupyter Notebook or Google Colab for notebook execution, if used by the implementation.
+- Git for version control.
+
+Use the versions specified in `code/requirements.txt` wherever possible. Do not assume that every TensorFlow release is compatible with every Python or CUDA version.
+
+### Dataset and Internet Access
+
+- Access to the documented NIH ChestX-ray14 sample dataset used by the project.
+- Sufficient storage for the downloaded and extracted image files.
+- Internet access when downloading the dataset, dependencies or pretrained model weights.
+- Any necessary dataset account, licence acceptance or access permissions.
+
+The dataset and pretrained weights may need to be obtained separately. Their availability in this repository should not be assumed.
+
+## 20. Reproducibility and Responsible Use
+
+- Preserve the patient-level train, validation and test separation used in the experiments.
+- Keep validation-based threshold selection separate from final test evaluation.
+- Record the model configuration, software versions, thresholds and evaluation procedure.
+- Report validation and test metrics separately.
+- Interpret per-disease results in light of class imbalance and the number of positive test examples.
+- Treat Grad-CAM visualisations as exploratory explanations rather than proof of clinical reasoning.
+- Do not use the model as a substitute for a qualified healthcare professional.
+
+This project is intended for academic and educational research, not clinical diagnosis or treatment decisions.
+
