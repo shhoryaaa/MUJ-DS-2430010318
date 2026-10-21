@@ -1,0 +1,5 @@
+model,best_validation_roc_auc,best_epoch
+Baseline CNN,0.5837209820747375,5
+EfficientNetV2B0 — Transfer Learning,0.6972737908363342,6
+EfficientNetV2B0 — Fine-Tuning,0.7073070406913757,5
+Focal-Loss Model,0.709712564945221,4
