@@ -161,3 +161,10 @@ single forward pass.
 - Explore label-smoothing or asymmetric loss variants for extreme imbalance.
 
 ## 17. Folder Structure
+## Suggested reading order
+1. `PROJECT_REPORT.md`
+2. `METHODOLOGY.md`
+3. `EXPERIMENTS_AND_RESULTS.md`
+4. `LIMITATIONS_AND_ETHICS.md`
+5. `FUTURE_WORK.md`
+6. `REPRODUCIBILITY_CHECKLIST.md`
