@@ -1,44 +1,38 @@
-# Experiments and Results
+## Final Results
 
-## Experiment matrix
+### Held-out test evaluation
 
-| ID | Model | Initialization | Trainable component | Objective |
-|---|---|---|---|---|
-| E1 | Baseline CNN | Random | All CNN layers | Binary cross-entropy |
-| E2 | EfficientNetV2B0 | ImageNet | New classification head | Binary cross-entropy |
-| E3 | EfficientNetV2B0 fine-tuned | E2 checkpoint | Selected later backbone layers + head | Binary cross-entropy |
-| E4 | Imbalance-aware model | Fine-tuned checkpoint | Matching trainable configuration | Binary focal loss |
+The following metrics were calculated from the current Colab runtime's
+`y_true_test`, `y_pred_prob_test`, and `y_pred_bin_test` arrays. They describe
+the evaluated model represented by those arrays only. They are not assigned
+to the other experiments.
 
-## Notebook-reported validation history
-The exported notebook logs the following maximum validation AUC values:
-- Baseline CNN: 0.5837 at epoch 5.
-- Frozen-backbone transfer learning: 0.6973 at epoch 6.
-- Fine-tuning: 0.7073 at epoch 5.
+| Evaluated test model | Test images | Test labels | Macro ROC-AUC | Micro ROC-AUC | Macro F1 | Micro F1 |
+|---|---:|---:|---:|---:|---:|---:|
+| Model associated with the current Colab test arrays | 826 | 14 | 0.7012 | 0.7974 | 0.0442 | 0.0848 |
 
-These are values visible in the notebook's training logs. They are validation
-metrics, not held-out test scores. They should not be compared with results from
-different splits or data processing configurations.
+- **Macro ROC-AUC:** unweighted mean of the ROC-AUC for labels containing both classes.
+- **Micro ROC-AUC:** ROC-AUC calculated over flattened label targets and probabilities.
+- **Macro F1 and Micro F1:** calculated using the existing binary predictions produced by the notebook.
+- **Test set size:** 826 images and 14 labels.
+- **Prediction rule:** the notebook's existing `y_pred_bin_test` was used. This cell does not assume that its threshold is 0.5.
 
-## Final results table
-Fill this table from the actual final test evaluation, not from training history.
+### Validation model comparison
 
-| Model | Test macro ROC-AUC | Test micro ROC-AUC | Macro F1 | Micro F1 | Notes |
-|---|---:|---:|---:|---:|---|
-| Baseline CNN | Not recorded here | Not recorded here | Not recorded here | Not recorded here | Run evaluation script |
-| EfficientNetV2B0 transfer learning | Not recorded here | Not recorded here | Not recorded here | Not recorded here | Run evaluation script |
-| EfficientNetV2B0 fine-tuned | Not recorded here | Not recorded here | Not recorded here | Not recorded here | Run evaluation script |
-| Focal-loss experiment | Not recorded here | Not recorded here | Not recorded here | Not recorded here | Run evaluation script |
+These values are validation ROC-AUC and best epochs from `model_results`.
+They are **not test results**.
 
-## Required reporting details
-Record the model checkpoint path, dataset version, split seed, number of test
-images, label order, probability threshold, and software versions. Include
-per-label results because aggregate scores can hide poor performance on rare
-findings. Report uncertainty where feasible.
+| Model | Best validation ROC-AUC | Best epoch |
+|---|---:|---:|
+| Baseline CNN | 0.5837 | 5 |
+| EfficientNetV2B0 — Transfer Learning | 0.6973 | 6 |
+| EfficientNetV2B0 — Fine-Tuning | 0.7073 | 5 |
+| Focal-Loss Model | 0.7097 | 4 |
 
-## Interpretation template
-1. Did pretrained features improve validation ranking performance over baseline?
-2. Did fine-tuning improve validation performance consistently or only at one epoch?
-3. Did focal loss improve rare-label recall without unacceptable precision loss?
-4. Which labels have the weakest support and most uncertain metrics?
-5. Are any explanations concentrated on borders, text markers or acquisition artifacts?
-6. Does the held-out test result support the same conclusion as validation?
+### Interpretation and limitations
+
+- The four model-validation scores must not be compared as if they were test scores.
+- The current runtime supplied one set of test prediction arrays. Test metrics for other models must be calculated from their own held-out test predictions before those models can be included in a test comparison.
+- This is a multi-label classification task. ROC-AUC and F1 measure different aspects of performance.
+- Per-disease results and machine-readable metrics are stored under `resources/results/`.
+- These results are for research and educational use, not clinical diagnosis.
