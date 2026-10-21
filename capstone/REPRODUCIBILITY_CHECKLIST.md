@@ -1,0 +1,21 @@
+# Reproducibility Checklist
+
+- [ ] Record dataset source, version and access date.
+- [ ] Record the exact metadata CSV and label schema.
+- [ ] Confirm each image path maps to one metadata record.
+- [ ] Record excluded files and reasons.
+- [ ] Record seed and patient-level split strategy.
+- [ ] Confirm no patient IDs overlap between splits.
+- [ ] Record input size, batch size and augmentation.
+- [ ] Record TensorFlow, Keras, Python and CUDA versions.
+- [ ] Record GPU model and memory where available.
+- [ ] Record model architecture and trainable parameter count.
+- [ ] Save training history for every experiment.
+- [ ] Record checkpoint filename and checksum.
+- [ ] Record threshold-selection strategy.
+- [ ] Evaluate the held-out test set once after model selection.
+- [ ] Save per-label and aggregate metrics with support.
+- [ ] Save confusion matrices and ROC/PR curves.
+- [ ] Record Grad-CAM target labels and image IDs.
+- [ ] Ensure no credentials or private data are committed.
+- [ ] Confirm README claims match generated artifacts.
