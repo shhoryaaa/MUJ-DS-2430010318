@@ -1,0 +1,12 @@
+{
+  "test_images": 826,
+  "number_of_labels": 14,
+  "macro_roc_auc": 0.7011516076272445,
+  "micro_roc_auc": 0.7973956020392927,
+  "macro_f1": 0.04420273475851988,
+  "micro_f1": 0.0847723704866562,
+  "macro_precision": 0.1720653377630122,
+  "macro_recall": 0.027069165012528856,
+  "binary_prediction_source": "Existing y_pred_bin_test from Colab",
+  "probability_source": "Existing y_pred_prob_test from Colab"
+}
