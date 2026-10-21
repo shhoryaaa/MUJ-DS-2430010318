@@ -1,0 +1,4 @@
+split,images,percent,patients
+train,3931,70.12,2961
+val,849,15.14,634
+test,826,14.73,635

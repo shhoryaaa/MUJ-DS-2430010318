@@ -1,0 +1,15 @@
+disease,train,val,test,prevalence_%,neg_to_pos_ratio_train
+Atelectasis,364,72,72,9.06,9.8
+Cardiomegaly,110,19,12,2.52,34.7
+Effusion,459,89,96,11.49,7.6
+Infiltration,674,150,143,17.25,4.8
+Mass,195,46,43,5.07,19.2
+Nodule,211,56,46,5.58,17.6
+Pneumonia,43,10,9,1.11,90.4
+Pneumothorax,193,41,37,4.83,19.4
+Consolidation,161,31,34,4.03,23.4
+Edema,83,16,19,2.1,46.4
+Emphysema,88,19,20,2.27,43.7
+Fibrosis,57,15,12,1.5,68.0
+Pleural_Thickening,115,38,23,3.14,33.2
+Hernia,10,2,1,0.23,392.1

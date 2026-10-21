@@ -1,0 +1,1 @@
+EfficientNetV2B0 / DenseNet121 (ImageNet) + GAP-BN-Dropout-Dense(14,sigmoid). See README.

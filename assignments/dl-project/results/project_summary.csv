@@ -1,0 +1,2 @@
+Student,Registration_Number,Section,Best_Model,Macro_ROC_AUC,Macro_F1_at_0.5,Macro_F1_TTA,ROC_AUC_TTA_subset_normal,ROC_AUC_TTA_subset_tta
+Shhorya Agarwal,2430010318,D,Model 4: EffNetV2B0 Fine-tuned + Focal Loss,0.7011516076272445,0.06761046761046761,0.06825396825396826,0.7139377881144232,0.7136022698945674

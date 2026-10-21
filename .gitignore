@@ -1,0 +1,4 @@
+data/
+*.zip
+*.keras
+__pycache__/

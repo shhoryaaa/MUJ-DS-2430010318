@@ -1,0 +1,7 @@
+Experiment,Macro AUC (classes>=10 pos),Macro F1,Micro F1,Trainable params,Total params,Train min
+EfficientNetV2B0 (baseline),0.6955,0.1361,0.2272,3088894.0,5942366.0,16.6
+DenseNet121 + ASL,0.718,0.181,0.2041,5169166.0,7055950.0,27.5
+Proposed ensemble,0.7312,0.1843,0.2201,10139196.0,12998316.0,46.9
+"Baseline CNN (yours, Cell 18)",0.5852,,,,,
+"CheXNet, Rajpurkar et al. 2017 [published, FULL 112k dataset]",FILL FROM PAPER,,,,,
+"Wang et al. 2017, ChestX-ray8 [published, FULL 112k dataset]",FILL FROM PAPER,,,,,

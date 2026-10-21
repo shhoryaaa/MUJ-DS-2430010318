@@ -1,0 +1,1603 @@
+idx,type,disease,prob
+0,False Positive,Infiltration,0.19490853
+1,False Negative (Missed),Mass,0.022809412
+1,False Negative (Missed),Consolidation,0.012509718
+1,False Positive,Fibrosis,0.30968127
+3,False Positive,Atelectasis,0.4659522
+3,False Positive,Effusion,0.67782444
+3,False Positive,Mass,0.2818191
+3,False Positive,Nodule,0.108878106
+3,False Positive,Consolidation,0.14073172
+3,False Positive,Emphysema,0.21535173
+3,False Positive,Fibrosis,0.07204888
+3,False Positive,Pleural_Thickening,0.7248997
+4,False Positive,Infiltration,0.27518222
+4,False Negative (Missed),Consolidation,0.013175422
+4,False Negative (Missed),Pleural_Thickening,0.035408616
+5,False Negative (Missed),Infiltration,0.057954796
+6,False Positive,Atelectasis,0.1606883
+6,False Positive,Infiltration,0.19469553
+7,False Positive,Infiltration,0.45300457
+7,False Positive,Mass,0.11506992
+7,False Positive,Nodule,0.18451844
+7,False Positive,Pneumothorax,0.23313594
+7,False Positive,Pleural_Thickening,0.37477356
+8,False Positive,Infiltration,0.37629962
+8,False Positive,Pleural_Thickening,0.15589772
+10,False Positive,Infiltration,0.1786848
+10,False Negative (Missed),Pneumothorax,0.11546772
+10,False Negative (Missed),Emphysema,0.017894603
+11,False Negative (Missed),Infiltration,0.08754464
+11,False Positive,Pneumothorax,0.28113893
+11,False Negative (Missed),Emphysema,0.0053112954
+12,False Positive,Infiltration,0.35960662
+12,False Positive,Consolidation,0.09580611
+13,False Positive,Atelectasis,0.1784704
+14,False Positive,Infiltration,0.21822473
+15,False Negative (Missed),Atelectasis,0.080010526
+16,False Positive,Infiltration,0.23412597
+16,False Positive,Mass,0.15428095
+16,False Positive,Nodule,0.14620303
+16,False Positive,Pneumothorax,0.28970224
+16,False Negative (Missed),Fibrosis,0.007815397
+16,False Positive,Pleural_Thickening,0.1507669
+17,False Positive,Atelectasis,0.16064441
+17,False Positive,Infiltration,0.2063663
+17,False Positive,Fibrosis,0.07832867
+17,False Positive,Pleural_Thickening,0.11506484
+18,False Negative (Missed),Effusion,0.08843869
+18,False Positive,Infiltration,0.1469101
+18,False Positive,Nodule,0.105410084
+19,False Positive,Nodule,0.11800315
+20,False Negative (Missed),Atelectasis,0.03871019
+20,False Negative (Missed),Effusion,0.14627557
+20,False Negative (Missed),Consolidation,0.0018471674
+23,False Negative (Missed),Atelectasis,0.05235388
+23,False Positive,Consolidation,0.14072418
+23,False Positive,Edema,0.24223249
+24,False Positive,Pleural_Thickening,0.18411215
+25,False Positive,Infiltration,0.19925645
+25,False Positive,Pleural_Thickening,0.07856264
+26,False Positive,Atelectasis,0.11024779
+26,False Positive,Infiltration,0.36392072
+26,False Positive,Pneumothorax,0.3416488
+26,False Positive,Consolidation,0.080034815
+29,False Positive,Infiltration,0.18486573
+30,False Positive,Infiltration,0.13281073
+30,False Positive,Nodule,0.1468897
+31,False Positive,Infiltration,0.25005338
+31,False Positive,Nodule,0.13313308
+32,False Positive,Infiltration,0.16922465
+33,False Positive,Infiltration,0.14657377
+35,False Positive,Infiltration,0.26449925
+36,False Positive,Fibrosis,0.0691827
+37,False Positive,Effusion,0.6410182
+37,False Positive,Infiltration,0.25371936
+37,False Positive,Consolidation,0.13064373
+38,False Positive,Effusion,0.5791472
+38,False Positive,Pneumonia,0.113319926
+38,False Positive,Pneumothorax,0.32352957
+38,False Positive,Consolidation,0.31313834
+38,False Positive,Pleural_Thickening,0.1530194
+39,False Negative (Missed),Atelectasis,0.031070104
+41,False Positive,Infiltration,0.354891
+42,False Positive,Infiltration,0.21659483
+43,False Negative (Missed),Infiltration,0.12374701
+44,False Positive,Consolidation,0.1982669
+45,False Negative (Missed),Effusion,0.30284804
+45,False Positive,Infiltration,0.15004683
+45,False Positive,Pleural_Thickening,0.19099347
+46,False Positive,Infiltration,0.15767843
+48,False Negative (Missed),Atelectasis,0.047255874
+48,False Negative (Missed),Infiltration,0.12731539
+48,False Positive,Consolidation,0.07063927
+48,False Positive,Fibrosis,0.06960351
+48,False Negative (Missed),Pleural_Thickening,0.04436191
+49,False Negative (Missed),Atelectasis,0.032509606
+49,False Negative (Missed),Infiltration,0.12121969
+51,False Negative (Missed),Infiltration,0.06430209
+51,False Negative (Missed),Nodule,0.013380404
+51,False Negative (Missed),Pneumonia,0.0013398348
+52,False Positive,Infiltration,0.19478968
+53,False Positive,Infiltration,0.1649081
+53,False Negative (Missed),Nodule,0.06734708
+53,False Positive,Pneumothorax,0.2589107
+53,False Positive,Fibrosis,0.050456274
+54,False Negative (Missed),Infiltration,0.04967833
+55,False Positive,Infiltration,0.24047609
+57,False Positive,Consolidation,0.056786094
+57,False Positive,Fibrosis,0.08262201
+58,False Positive,Atelectasis,0.160553
+58,False Positive,Effusion,0.3529145
+58,False Positive,Nodule,0.1209429
+58,False Positive,Consolidation,0.36996636
+59,False Positive,Infiltration,0.24552348
+59,False Negative (Missed),Emphysema,0.0012441943
+60,False Positive,Infiltration,0.27748388
+61,False Negative (Missed),Infiltration,0.048308287
+62,False Positive,Pleural_Thickening,0.09888249
+63,False Negative (Missed),Mass,0.006715122
+63,False Positive,Consolidation,0.08137848
+63,False Negative (Missed),Emphysema,0.062860996
+64,False Positive,Infiltration,0.1306545
+64,False Positive,Pleural_Thickening,0.1191025
+66,False Positive,Atelectasis,0.18931238
+66,False Positive,Effusion,0.4053762
+66,False Positive,Infiltration,0.2835125
+68,False Negative (Missed),Effusion,0.020295814
+68,False Positive,Nodule,0.09009487
+68,False Negative (Missed),Pleural_Thickening,0.011580795
+69,False Positive,Infiltration,0.13601184
+69,False Positive,Pneumothorax,0.28710964
+70,False Positive,Infiltration,0.16136912
+71,False Positive,Infiltration,0.25830188
+73,False Positive,Infiltration,0.16610566
+74,False Positive,Infiltration,0.13173443
+75,False Negative (Missed),Nodule,0.057883263
+76,False Negative (Missed),Nodule,0.0270589
+79,False Positive,Effusion,0.43354344
+79,False Positive,Pneumonia,0.23956402
+79,False Positive,Consolidation,0.21730943
+79,False Positive,Edema,0.3105005
+80,False Positive,Atelectasis,0.14294669
+80,False Positive,Infiltration,0.25604743
+80,False Positive,Consolidation,0.054074027
+81,False Positive,Infiltration,0.1491184
+82,False Positive,Infiltration,0.21163052
+83,False Negative (Missed),Nodule,0.04772096
+83,False Positive,Pleural_Thickening,0.12527694
+84,False Negative (Missed),Mass,0.0076918276
+86,False Negative (Missed),Effusion,0.061542884
+86,False Negative (Missed),Nodule,0.0430557
+87,False Positive,Infiltration,0.37082267
+87,False Positive,Pneumonia,0.05226159
+88,False Negative (Missed),Atelectasis,0.039662406
+88,False Negative (Missed),Effusion,0.13218795
+88,False Positive,Infiltration,0.14297166
+88,False Negative (Missed),Consolidation,0.03967522
+89,False Positive,Pneumonia,0.07614853
+89,False Positive,Consolidation,0.110701054
+90,False Positive,Infiltration,0.16408274
+92,False Positive,Infiltration,0.1744029
+93,False Negative (Missed),Atelectasis,0.09947035
+94,False Positive,Infiltration,0.16499582
+94,False Positive,Fibrosis,0.052424617
+95,False Positive,Infiltration,0.18950802
+95,False Positive,Nodule,0.2601326
+97,False Positive,Infiltration,0.21112786
+97,False Negative (Missed),Fibrosis,0.0032905042
+101,False Positive,Infiltration,0.19602013
+101,False Positive,Nodule,0.14867654
+103,False Negative (Missed),Cardiomegaly,0.008711302
+103,False Negative (Missed),Effusion,0.20738555
+104,False Negative (Missed),Atelectasis,0.10558423
+104,False Negative (Missed),Effusion,0.14278942
+104,False Positive,Infiltration,0.18573435
+106,False Positive,Infiltration,0.14889619
+106,False Positive,Pneumonia,0.06883538
+107,False Positive,Infiltration,0.1495458
+108,False Positive,Consolidation,0.06336802
+109,False Negative (Missed),Cardiomegaly,0.019892806
+109,False Positive,Infiltration,0.32361478
+109,False Positive,Nodule,0.10434494
+109,False Positive,Pneumothorax,0.25976396
+110,False Positive,Consolidation,0.08646633
+111,False Positive,Effusion,0.5125369
+111,False Negative (Missed),Pneumothorax,0.037093062
+111,False Positive,Consolidation,0.1109708
+112,False Positive,Atelectasis,0.20478085
+112,False Negative (Missed),Effusion,0.062062047
+113,False Positive,Effusion,0.35871997
+113,False Positive,Infiltration,0.2555882
+113,False Positive,Pneumonia,0.07015813
+114,False Positive,Atelectasis,0.1254848
+114,False Positive,Infiltration,0.362571
+114,False Positive,Pneumonia,0.06281145
+115,False Negative (Missed),Infiltration,0.09802678
+116,False Positive,Infiltration,0.22506347
+116,False Positive,Pleural_Thickening,0.15623033
+117,False Positive,Infiltration,0.24360268
+118,False Positive,Consolidation,0.103242
+119,False Positive,Infiltration,0.22704276
+120,False Positive,Atelectasis,0.120814934
+120,False Positive,Effusion,0.41330615
+120,False Positive,Infiltration,0.2855686
+120,False Positive,Nodule,0.10263263
+120,False Positive,Pneumonia,0.19214025
+120,False Positive,Consolidation,0.17912112
+120,False Positive,Edema,0.45619795
+121,False Positive,Infiltration,0.22519848
+123,False Negative (Missed),Atelectasis,0.06819687
+123,False Positive,Effusion,0.41481248
+123,False Positive,Infiltration,0.14331305
+123,False Positive,Consolidation,0.08589359
+124,False Positive,Infiltration,0.4244082
+124,False Positive,Consolidation,0.06913378
+125,False Positive,Infiltration,0.15171473
+126,False Positive,Effusion,0.34285516
+126,False Positive,Infiltration,0.14057033
+127,False Positive,Infiltration,0.15071142
+127,False Negative (Missed),Mass,0.060499284
+127,False Positive,Nodule,0.19544944
+128,False Negative (Missed),Cardiomegaly,0.0012584494
+129,False Positive,Effusion,0.32351053
+130,False Positive,Pleural_Thickening,0.16116221
+131,False Positive,Atelectasis,0.11974647
+131,False Positive,Infiltration,0.20341426
+131,False Positive,Mass,0.123128735
+132,False Negative (Missed),Atelectasis,0.04656908
+132,False Positive,Effusion,0.35056743
+132,False Positive,Infiltration,0.27672833
+132,False Positive,Consolidation,0.059421822
+133,False Positive,Infiltration,0.29501754
+134,False Positive,Infiltration,0.29923385
+134,False Negative (Missed),Mass,0.033716865
+135,False Negative (Missed),Mass,0.020683756
+136,False Positive,Atelectasis,0.12500155
+136,False Positive,Mass,0.1572357
+136,False Positive,Consolidation,0.09725888
+136,False Negative (Missed),Emphysema,0.008103931
+136,False Positive,Pleural_Thickening,0.13543475
+137,False Positive,Infiltration,0.17590882
+138,False Positive,Infiltration,0.28026196
+139,False Positive,Infiltration,0.20939228
+140,False Negative (Missed),Effusion,0.20423606
+140,False Positive,Infiltration,0.25303668
+141,False Positive,Nodule,0.17379178
+142,False Positive,Atelectasis,0.14567463
+142,False Positive,Infiltration,0.14053455
+143,False Positive,Consolidation,0.05058103
+144,False Positive,Pneumothorax,0.23565692
+145,False Negative (Missed),Infiltration,0.05944099
+145,False Positive,Fibrosis,0.06744353
+146,False Positive,Infiltration,0.15602322
+147,False Negative (Missed),Atelectasis,0.08082544
+147,False Positive,Infiltration,0.21076594
+147,False Positive,Nodule,0.11055132
+148,False Negative (Missed),Effusion,0.28719586
+148,False Positive,Infiltration,0.39906946
+148,False Positive,Consolidation,0.09434957
+149,False Positive,Infiltration,0.14511055
+150,False Positive,Fibrosis,0.1179313
+151,False Positive,Infiltration,0.21423833
+153,False Positive,Effusion,0.39936244
+153,False Positive,Infiltration,0.4923907
+153,False Negative (Missed),Emphysema,0.016607268
+154,False Positive,Effusion,0.4131863
+154,False Positive,Infiltration,0.35086924
+154,False Positive,Mass,0.12447439
+154,False Positive,Pneumothorax,0.26453283
+154,False Positive,Consolidation,0.1277836
+155,False Negative (Missed),Atelectasis,0.042268857
+156,False Positive,Infiltration,0.1681414
+157,False Positive,Atelectasis,0.27490494
+158,False Positive,Infiltration,0.57649744
+158,False Positive,Nodule,0.13330977
+159,False Positive,Atelectasis,0.13820909
+159,False Positive,Cardiomegaly,0.12542078
+159,False Positive,Effusion,0.35774654
+159,False Positive,Infiltration,0.17237103
+159,False Positive,Pneumonia,0.088188164
+159,False Positive,Consolidation,0.11654057
+160,False Positive,Nodule,0.16939546
+162,False Positive,Effusion,0.31894764
+163,False Positive,Infiltration,0.13858044
+164,False Negative (Missed),Atelectasis,0.1048683
+166,False Negative (Missed),Consolidation,0.005985891
+168,False Positive,Infiltration,0.25488958
+170,False Positive,Infiltration,0.31844303
+171,False Positive,Infiltration,0.13860539
+171,False Positive,Nodule,0.122585066
+172,False Positive,Infiltration,0.15186726
+172,False Negative (Missed),Edema,0.09037007
+173,False Positive,Infiltration,0.2325503
+174,False Positive,Atelectasis,0.2062462
+174,False Positive,Effusion,0.4509
+174,False Positive,Infiltration,0.24710268
+174,False Positive,Consolidation,0.14060758
+175,False Positive,Atelectasis,0.11645583
+175,False Positive,Cardiomegaly,0.13947059
+175,False Positive,Pneumonia,0.11818415
+175,False Positive,Consolidation,0.24878466
+175,False Negative (Missed),Edema,0.084377356
+176,False Positive,Infiltration,0.16110443
+176,False Negative (Missed),Nodule,0.006614738
+176,False Positive,Consolidation,0.12102566
+177,False Positive,Atelectasis,0.30659112
+177,False Positive,Nodule,0.12630042
+178,False Negative (Missed),Nodule,0.030132845
+179,False Positive,Infiltration,0.1749438
+180,False Positive,Infiltration,0.19793487
+181,False Positive,Infiltration,0.2130946
+181,False Negative (Missed),Emphysema,0.025732154
+182,False Positive,Infiltration,0.1354074
+183,False Positive,Infiltration,0.20668657
+183,False Positive,Nodule,0.33024588
+185,False Positive,Infiltration,0.4139926
+186,False Positive,Infiltration,0.17503507
+186,False Positive,Nodule,0.12059171
+186,False Negative (Missed),Fibrosis,0.01397669
+187,False Positive,Infiltration,0.18832418
+188,False Negative (Missed),Cardiomegaly,0.012370739
+188,False Positive,Infiltration,0.46737307
+188,False Positive,Pleural_Thickening,0.07458974
+189,False Positive,Infiltration,0.20555042
+190,False Positive,Atelectasis,0.17451692
+190,False Positive,Effusion,0.40599936
+190,False Positive,Infiltration,0.294686
+190,False Positive,Pneumonia,0.061293393
+190,False Positive,Consolidation,0.21460146
+190,False Negative (Missed),Pleural_Thickening,0.01155401
+191,False Positive,Atelectasis,0.11614668
+191,False Positive,Effusion,0.32753915
+192,False Positive,Infiltration,0.19896404
+192,False Negative (Missed),Nodule,0.06949353
+192,False Positive,Fibrosis,0.07455505
+193,False Positive,Infiltration,0.20968391
+194,False Negative (Missed),Atelectasis,0.050919175
+194,False Positive,Fibrosis,0.15940814
+195,False Positive,Infiltration,0.21494164
+196,False Positive,Infiltration,0.19732177
+196,False Positive,Mass,0.12764747
+196,False Positive,Nodule,0.13318732
+197,False Negative (Missed),Atelectasis,0.02831884
+197,False Negative (Missed),Effusion,0.081479006
+197,False Negative (Missed),Infiltration,0.09141235
+198,False Negative (Missed),Infiltration,0.10502988
+198,False Negative (Missed),Mass,0.032058287
+199,False Negative (Missed),Pneumothorax,0.064673066
+199,False Negative (Missed),Pleural_Thickening,0.009184012
+200,False Negative (Missed),Effusion,0.0627439
+201,False Positive,Consolidation,0.050663
+202,False Positive,Consolidation,0.059542593
+203,False Negative (Missed),Effusion,0.18670076
+203,False Positive,Infiltration,0.13877429
+203,False Positive,Consolidation,0.08952003
+204,False Negative (Missed),Effusion,0.18035264
+206,False Positive,Infiltration,0.16590306
+206,False Positive,Nodule,0.09771878
+207,False Positive,Atelectasis,0.1158299
+207,False Negative (Missed),Effusion,0.07200528
+207,False Positive,Mass,0.13716835
+207,False Positive,Nodule,0.18843165
+207,False Positive,Fibrosis,0.42119098
+207,False Positive,Pleural_Thickening,0.1568171
+207,False Positive,Hernia,0.08023592
+208,False Negative (Missed),Effusion,0.06102435
+208,False Positive,Infiltration,0.14501218
+209,False Positive,Atelectasis,0.37824416
+209,False Positive,Infiltration,0.13267697
+210,False Negative (Missed),Consolidation,0.04977026
+211,False Negative (Missed),Atelectasis,0.074877486
+211,False Positive,Nodule,0.11728239
+211,False Positive,Consolidation,0.08245294
+214,False Positive,Infiltration,0.16281971
+215,False Positive,Infiltration,0.17518578
+215,False Positive,Consolidation,0.068586715
+216,False Positive,Infiltration,0.17031442
+217,False Positive,Infiltration,0.18507408
+218,False Positive,Nodule,0.09977122
+220,False Positive,Atelectasis,0.13880208
+220,False Negative (Missed),Effusion,0.15843296
+220,False Positive,Consolidation,0.15235496
+220,False Negative (Missed),Edema,0.07166386
+221,False Positive,Atelectasis,0.16269088
+223,False Positive,Infiltration,0.23143628
+224,False Positive,Infiltration,0.2823991
+224,False Positive,Nodule,0.120121665
+224,False Positive,Pleural_Thickening,0.10524762
+225,False Positive,Nodule,0.11339302
+225,False Positive,Fibrosis,0.061804973
+226,False Positive,Infiltration,0.22250028
+226,False Positive,Nodule,0.09338088
+229,False Positive,Infiltration,0.23509876
+229,False Positive,Mass,0.1206575
+229,False Positive,Nodule,0.10590319
+229,False Positive,Fibrosis,0.083117776
+230,False Positive,Infiltration,0.2817562
+230,False Positive,Pleural_Thickening,0.084677085
+231,False Negative (Missed),Effusion,0.10157034
+232,False Positive,Infiltration,0.16958068
+233,False Positive,Atelectasis,0.23218673
+233,False Positive,Effusion,0.35037047
+233,False Positive,Infiltration,0.14765213
+234,False Negative (Missed),Atelectasis,0.04511335
+234,False Positive,Effusion,0.42284256
+234,False Positive,Infiltration,0.32799548
+234,False Positive,Consolidation,0.11825701
+236,False Positive,Atelectasis,0.23242776
+236,False Positive,Effusion,0.50686884
+236,False Positive,Consolidation,0.118305236
+237,False Positive,Infiltration,0.18836457
+237,False Negative (Missed),Mass,0.05370208
+237,False Positive,Nodule,0.351742
+237,False Negative (Missed),Pneumonia,0.016813805
+237,False Negative (Missed),Consolidation,0.042970955
+238,False Negative (Missed),Infiltration,0.04310856
+238,False Negative (Missed),Nodule,0.01282122
+240,False Positive,Atelectasis,0.18142954
+240,False Positive,Infiltration,0.15085417
+240,False Positive,Pleural_Thickening,0.09476326
+241,False Negative (Missed),Mass,0.012877888
+241,False Negative (Missed),Nodule,0.033057943
+241,False Negative (Missed),Pneumothorax,0.06468668
+243,False Positive,Infiltration,0.13215953
+244,False Positive,Atelectasis,0.18575662
+244,False Positive,Infiltration,0.25398108
+244,False Negative (Missed),Hernia,0.0032600593
+245,False Positive,Infiltration,0.2031676
+245,False Positive,Mass,0.12601118
+245,False Positive,Nodule,0.2811865
+245,False Positive,Pleural_Thickening,0.13694596
+247,False Positive,Atelectasis,0.18462151
+247,False Positive,Infiltration,0.43765023
+247,False Positive,Mass,0.12002335
+247,False Positive,Consolidation,0.122285254
+247,False Positive,Edema,0.31406114
+248,False Positive,Infiltration,0.17294769
+248,False Positive,Mass,0.1240424
+248,False Negative (Missed),Pneumothorax,0.033882286
+248,False Positive,Consolidation,0.056482114
+249,False Positive,Effusion,0.31849632
+249,False Positive,Mass,0.18933083
+249,False Positive,Consolidation,0.12126003
+249,False Positive,Pleural_Thickening,0.09122772
+250,False Negative (Missed),Atelectasis,0.03244239
+250,False Positive,Infiltration,0.20079796
+250,False Positive,Nodule,0.15367477
+251,False Positive,Infiltration,0.22551729
+253,False Positive,Infiltration,0.14449455
+254,False Negative (Missed),Effusion,0.26572388
+254,False Negative (Missed),Infiltration,0.05238682
+254,False Positive,Consolidation,0.3193513
+254,False Positive,Edema,0.30756092
+255,False Positive,Atelectasis,0.20559669
+255,False Positive,Infiltration,0.33548027
+255,False Negative (Missed),Nodule,0.02768698
+255,False Positive,Pneumonia,0.13006821
+255,False Positive,Consolidation,0.54013366
+255,False Positive,Edema,0.26835918
+255,False Positive,Pleural_Thickening,0.09643884
+256,False Positive,Nodule,0.2031131
+256,False Negative (Missed),Pneumothorax,0.14828405
+256,False Positive,Consolidation,0.05705018
+256,False Negative (Missed),Emphysema,0.065090455
+256,False Positive,Fibrosis,0.28608444
+256,False Positive,Pleural_Thickening,0.16292934
+256,False Positive,Hernia,0.076570585
+258,False Positive,Infiltration,0.13707961
+258,False Negative (Missed),Mass,0.011845348
+258,False Negative (Missed),Emphysema,0.0053372276
+259,False Positive,Infiltration,0.19834934
+260,False Positive,Infiltration,0.13777989
+260,False Positive,Nodule,0.110282645
+260,False Positive,Fibrosis,0.13172531
+260,False Negative (Missed),Pleural_Thickening,0.008760965
+261,False Positive,Infiltration,0.15062289
+262,False Positive,Infiltration,0.26703316
+263,False Positive,Atelectasis,0.121935494
+263,False Positive,Infiltration,0.1847892
+263,False Positive,Mass,0.14083944
+263,False Positive,Pneumonia,0.35805938
+263,False Positive,Pneumothorax,0.39106345
+263,False Positive,Consolidation,0.27637517
+263,False Positive,Emphysema,0.17644484
+263,False Positive,Fibrosis,0.057348415
+263,False Positive,Pleural_Thickening,0.23122984
+264,False Positive,Atelectasis,0.12936604
+266,False Positive,Effusion,0.45834294
+266,False Negative (Missed),Mass,0.081682034
+266,False Negative (Missed),Pneumothorax,0.07063335
+266,False Positive,Consolidation,0.22051881
+267,False Positive,Effusion,0.49741668
+267,False Positive,Consolidation,0.15659611
+267,False Positive,Edema,0.38874748
+268,False Positive,Infiltration,0.1743218
+269,False Positive,Consolidation,0.06768923
+271,False Negative (Missed),Mass,0.06209234
+272,False Positive,Nodule,0.09604188
+273,False Positive,Infiltration,0.33609575
+275,False Negative (Missed),Infiltration,0.12064168
+278,False Positive,Infiltration,0.19007519
+280,False Positive,Atelectasis,0.21335499
+280,False Negative (Missed),Effusion,0.28969014
+280,False Positive,Infiltration,0.24342564
+280,False Negative (Missed),Mass,0.037354894
+280,False Positive,Consolidation,0.08865447
+281,False Positive,Mass,0.1361036
+282,False Positive,Effusion,0.522598
+282,False Positive,Infiltration,0.16743979
+282,False Positive,Consolidation,0.10352145
+283,False Positive,Atelectasis,0.19405784
+283,False Positive,Infiltration,0.15169519
+283,False Positive,Consolidation,0.065500535
+284,False Positive,Infiltration,0.13430174
+285,False Negative (Missed),Infiltration,0.03212975
+286,False Positive,Infiltration,0.31523386
+287,False Positive,Infiltration,0.45431596
+287,False Positive,Consolidation,0.07449214
+288,False Positive,Infiltration,0.17450805
+289,False Positive,Infiltration,0.17587644
+290,False Positive,Infiltration,0.16919304
+291,False Negative (Missed),Effusion,0.28479165
+291,False Positive,Infiltration,0.2433176
+292,False Positive,Infiltration,0.19408162
+292,False Negative (Missed),Nodule,0.042909812
+293,False Negative (Missed),Atelectasis,0.028874323
+293,False Negative (Missed),Effusion,0.29919487
+293,False Positive,Infiltration,0.26952377
+293,False Negative (Missed),Pneumothorax,0.2114458
+293,False Positive,Pleural_Thickening,0.10234021
+294,False Positive,Infiltration,0.23053034
+296,False Positive,Consolidation,0.07476258
+296,False Negative (Missed),Edema,0.061367217
+297,False Negative (Missed),Atelectasis,0.030685686
+297,False Positive,Infiltration,0.1966072
+297,False Negative (Missed),Pneumothorax,0.07945949
+297,False Negative (Missed),Emphysema,0.0036945816
+298,False Negative (Missed),Effusion,0.062296312
+298,False Positive,Infiltration,0.15985817
+299,False Positive,Infiltration,0.14675845
+300,False Positive,Infiltration,0.20105839
+300,False Negative (Missed),Fibrosis,0.009795909
+301,False Positive,Infiltration,0.2144947
+302,False Positive,Atelectasis,0.1577993
+302,False Positive,Effusion,0.7139053
+302,False Positive,Consolidation,0.38833308
+303,False Positive,Atelectasis,0.11036397
+303,False Positive,Effusion,0.5616648
+303,False Positive,Infiltration,0.4048495
+303,False Positive,Pleural_Thickening,0.09672881
+304,False Positive,Infiltration,0.25293908
+305,False Positive,Infiltration,0.16045982
+306,False Positive,Infiltration,0.29529756
+306,False Positive,Nodule,0.23514025
+307,False Positive,Infiltration,0.16793612
+308,False Positive,Infiltration,0.19426222
+309,False Negative (Missed),Mass,0.007705415
+311,False Positive,Infiltration,0.1361405
+311,False Positive,Emphysema,0.113644205
+313,False Positive,Infiltration,0.14284535
+314,False Positive,Fibrosis,0.05656625
+316,False Positive,Infiltration,0.13890478
+318,False Positive,Infiltration,0.25795403
+318,False Positive,Pleural_Thickening,0.07628091
+320,False Positive,Infiltration,0.13139427
+320,False Positive,Nodule,0.1724992
+321,False Negative (Missed),Infiltration,0.06310334
+321,False Negative (Missed),Pneumothorax,0.052874666
+321,False Positive,Consolidation,0.054180164
+322,False Positive,Infiltration,0.20357694
+323,False Positive,Infiltration,0.24368125
+324,False Positive,Infiltration,0.30587596
+324,False Negative (Missed),Nodule,0.04497117
+325,False Positive,Mass,0.12801154
+325,False Positive,Pleural_Thickening,0.09944286
+326,False Positive,Atelectasis,0.15465415
+326,False Negative (Missed),Effusion,0.045705978
+326,False Positive,Infiltration,0.20290105
+327,False Negative (Missed),Atelectasis,0.08561997
+327,False Positive,Infiltration,0.1726401
+328,False Positive,Infiltration,0.24271958
+329,False Positive,Atelectasis,0.13170144
+329,False Positive,Infiltration,0.13167521
+329,False Positive,Edema,0.3153317
+330,False Positive,Infiltration,0.3337197
+330,False Negative (Missed),Mass,0.023095308
+330,False Negative (Missed),Emphysema,0.003105347
+331,False Negative (Missed),Effusion,0.09423259
+331,False Negative (Missed),Mass,0.050221562
+331,False Negative (Missed),Pneumothorax,0.021371698
+331,False Positive,Consolidation,0.12555258
+331,False Negative (Missed),Pleural_Thickening,0.0049646827
+332,False Positive,Emphysema,0.20763129
+332,False Positive,Pleural_Thickening,0.108613215
+333,False Positive,Effusion,0.42602915
+333,False Negative (Missed),Infiltration,0.0703923
+333,False Positive,Consolidation,0.05861703
+333,False Negative (Missed),Emphysema,0.037207805
+334,False Positive,Effusion,0.32799584
+334,False Negative (Missed),Emphysema,0.011591345
+334,False Positive,Pleural_Thickening,0.07586573
+335,False Positive,Atelectasis,0.1778162
+335,False Positive,Effusion,0.45083895
+335,False Positive,Infiltration,0.25955132
+335,False Positive,Pneumonia,0.06359919
+336,False Negative (Missed),Effusion,0.2251844
+336,False Positive,Infiltration,0.50014555
+336,False Positive,Pneumonia,0.20433816
+337,False Positive,Infiltration,0.23996209
+337,False Positive,Pneumonia,0.090429455
+337,False Positive,Consolidation,0.07216936
+338,False Negative (Missed),Atelectasis,0.061836086
+339,False Negative (Missed),Atelectasis,0.03996362
+339,False Positive,Infiltration,0.2220948
+339,False Positive,Pneumonia,0.051414322
+340,False Positive,Effusion,0.3349367
+340,False Positive,Infiltration,0.14465654
+341,False Positive,Atelectasis,0.15643464
+341,False Positive,Effusion,0.62782365
+341,False Positive,Infiltration,0.24742897
+341,False Positive,Pneumonia,0.07513964
+341,False Positive,Consolidation,0.15819465
+341,False Positive,Edema,0.48287466
+342,False Positive,Atelectasis,0.11244438
+342,False Positive,Effusion,0.32703727
+342,False Positive,Mass,0.26376876
+342,False Positive,Pneumonia,0.09309302
+342,False Negative (Missed),Consolidation,0.022717318
+342,False Positive,Edema,0.21961008
+343,False Positive,Infiltration,0.13026637
+343,False Negative (Missed),Mass,0.03991769
+344,False Positive,Infiltration,0.23358762
+344,False Positive,Pneumothorax,0.24963492
+345,False Positive,Cardiomegaly,0.09703034
+345,False Positive,Mass,0.14022736
+345,False Positive,Emphysema,0.1408374
+345,False Positive,Pleural_Thickening,0.072485164
+347,False Positive,Atelectasis,0.45188403
+347,False Positive,Effusion,0.46830526
+347,False Positive,Nodule,0.12240926
+347,False Positive,Consolidation,0.075297795
+348,False Positive,Infiltration,0.320586
+348,False Positive,Nodule,0.10674735
+350,False Negative (Missed),Infiltration,0.038882524
+350,False Negative (Missed),Fibrosis,0.01911995
+351,False Positive,Infiltration,0.32354113
+351,False Positive,Nodule,0.09100908
+351,False Positive,Consolidation,0.057803083
+351,False Negative (Missed),Pleural_Thickening,0.028373584
+353,False Positive,Atelectasis,0.12442051
+353,False Positive,Effusion,0.58700454
+353,False Positive,Infiltration,0.33148673
+353,False Positive,Pneumonia,0.061502382
+353,False Positive,Consolidation,0.07593942
+355,False Negative (Missed),Effusion,0.307537
+355,False Positive,Infiltration,0.28772542
+355,False Negative (Missed),Mass,0.044690102
+355,False Positive,Nodule,0.11672905
+355,False Positive,Pleural_Thickening,0.3067072
+356,False Positive,Infiltration,0.18807352
+357,False Negative (Missed),Atelectasis,0.06120641
+357,False Positive,Effusion,0.40711525
+357,False Negative (Missed),Fibrosis,0.016666353
+357,False Positive,Pleural_Thickening,0.095962696
+358,False Negative (Missed),Effusion,0.07595973
+358,False Negative (Missed),Infiltration,0.06380709
+359,False Positive,Infiltration,0.2120244
+360,False Positive,Infiltration,0.27691433
+360,False Positive,Pneumonia,0.07366057
+360,False Positive,Consolidation,0.08262076
+362,False Positive,Infiltration,0.44444185
+363,False Positive,Infiltration,0.35216066
+364,False Negative (Missed),Consolidation,0.010316603
+365,False Positive,Infiltration,0.15429358
+365,False Negative (Missed),Pneumonia,0.002442586
+366,False Positive,Infiltration,0.23723133
+367,False Positive,Infiltration,0.21544585
+368,False Positive,Atelectasis,0.16109371
+368,False Positive,Nodule,0.11338564
+369,False Positive,Mass,0.15765344
+369,False Positive,Consolidation,0.07932534
+370,False Positive,Atelectasis,0.11821241
+370,False Positive,Effusion,0.42777467
+370,False Positive,Infiltration,0.30213732
+370,False Positive,Pneumonia,0.20285097
+370,False Positive,Consolidation,0.10511134
+370,False Positive,Edema,0.31546766
+371,False Positive,Atelectasis,0.2951859
+371,False Positive,Effusion,0.40915
+371,False Positive,Mass,0.13638856
+371,False Positive,Pneumonia,0.101646386
+371,False Positive,Consolidation,0.13217582
+372,False Positive,Atelectasis,0.14406289
+372,False Positive,Effusion,0.38429058
+372,False Positive,Infiltration,0.39095372
+372,False Positive,Consolidation,0.1018921
+373,False Positive,Effusion,0.32816413
+373,False Positive,Nodule,0.11199031
+373,False Positive,Consolidation,0.102133304
+374,False Positive,Pleural_Thickening,0.09708985
+375,False Positive,Atelectasis,0.16575837
+375,False Positive,Infiltration,0.21681933
+375,False Positive,Pleural_Thickening,0.07037605
+376,False Positive,Atelectasis,0.12059498
+376,False Negative (Missed),Effusion,0.06818736
+376,False Positive,Infiltration,0.15709919
+376,False Positive,Pleural_Thickening,0.070139684
+377,False Positive,Infiltration,0.2785626
+377,False Positive,Pleural_Thickening,0.12039852
+378,False Positive,Atelectasis,0.57234925
+378,False Positive,Effusion,0.9449052
+378,False Positive,Mass,0.1386565
+378,False Positive,Pneumothorax,0.5051605
+378,False Positive,Consolidation,0.15272127
+378,False Positive,Pleural_Thickening,0.35526597
+379,False Positive,Atelectasis,0.25057954
+379,False Positive,Mass,0.20970055
+379,False Negative (Missed),Pneumothorax,0.1413799
+379,False Positive,Consolidation,0.2604703
+380,False Positive,Pneumothorax,0.24759455
+380,False Positive,Consolidation,0.08937907
+381,False Positive,Infiltration,0.22449505
+381,False Positive,Mass,0.23443978
+381,False Positive,Nodule,0.28488848
+382,False Positive,Pleural_Thickening,0.15379462
+383,False Positive,Effusion,0.43311045
+383,False Positive,Infiltration,0.328607
+383,False Positive,Mass,0.11935395
+384,False Positive,Atelectasis,0.14280428
+385,False Positive,Infiltration,0.197842
+385,False Positive,Nodule,0.1270628
+388,False Negative (Missed),Infiltration,0.098214895
+389,False Positive,Infiltration,0.15117182
+390,False Positive,Infiltration,0.22170524
+391,False Negative (Missed),Infiltration,0.12606385
+391,False Positive,Consolidation,0.07895559
+392,False Negative (Missed),Infiltration,0.07178957
+392,False Positive,Nodule,0.24306867
+395,False Positive,Atelectasis,0.15368044
+395,False Positive,Cardiomegaly,0.26089236
+395,False Positive,Infiltration,0.21181904
+395,False Positive,Consolidation,0.08789362
+395,False Negative (Missed),Pleural_Thickening,0.028203
+396,False Positive,Atelectasis,0.12943345
+396,False Positive,Cardiomegaly,0.17027752
+396,False Positive,Effusion,0.49503738
+396,False Positive,Infiltration,0.63546044
+396,False Positive,Pneumonia,0.10281602
+396,False Positive,Consolidation,0.27878472
+396,False Positive,Edema,0.28337312
+397,False Positive,Infiltration,0.32271126
+397,False Positive,Consolidation,0.22064243
+398,False Negative (Missed),Effusion,0.24746908
+398,False Positive,Pneumonia,0.068436496
+398,False Positive,Consolidation,0.0878023
+399,False Positive,Atelectasis,0.34348154
+399,False Positive,Infiltration,0.39142102
+399,False Positive,Mass,0.22761871
+399,False Positive,Nodule,0.25499016
+399,False Positive,Consolidation,0.080939166
+399,False Positive,Pleural_Thickening,0.20807189
+401,False Negative (Missed),Effusion,0.076652564
+402,False Positive,Infiltration,0.40709996
+402,False Negative (Missed),Nodule,0.075598955
+403,False Positive,Consolidation,0.22084746
+404,False Negative (Missed),Atelectasis,0.06911204
+404,False Positive,Infiltration,0.24573739
+404,False Positive,Pleural_Thickening,0.19895154
+407,False Positive,Atelectasis,0.1724125
+407,False Negative (Missed),Infiltration,0.12677766
+408,False Negative (Missed),Atelectasis,0.0854338
+408,False Negative (Missed),Effusion,0.19734435
+408,False Negative (Missed),Infiltration,0.11955192
+408,False Negative (Missed),Pneumonia,0.018209409
+409,False Negative (Missed),Atelectasis,0.03852889
+409,False Negative (Missed),Effusion,0.14884616
+409,False Positive,Infiltration,0.14748958
+409,False Positive,Consolidation,0.0966695
+412,False Positive,Infiltration,0.22391725
+413,False Positive,Atelectasis,0.122373305
+413,False Positive,Infiltration,0.15652302
+413,False Positive,Nodule,0.13597177
+413,False Positive,Consolidation,0.1344227
+414,False Positive,Infiltration,0.16683581
+415,False Positive,Infiltration,0.26937076
+416,False Positive,Cardiomegaly,0.10007686
+416,False Positive,Pleural_Thickening,0.10904421
+417,False Positive,Infiltration,0.24183065
+418,False Positive,Atelectasis,0.14819433
+418,False Positive,Pneumonia,0.06957903
+419,False Positive,Infiltration,0.2461132
+420,False Positive,Infiltration,0.25805804
+420,False Negative (Missed),Mass,0.007502176
+420,False Negative (Missed),Consolidation,0.026985519
+421,False Positive,Effusion,0.3461734
+421,False Positive,Mass,0.13616723
+421,False Positive,Nodule,0.09738685
+421,False Positive,Pleural_Thickening,0.10205301
+422,False Positive,Infiltration,0.65849173
+423,False Positive,Nodule,0.09288464
+423,False Positive,Pneumothorax,0.26427522
+423,False Negative (Missed),Emphysema,0.05056148
+425,False Positive,Effusion,0.31926322
+425,False Positive,Infiltration,0.17477328
+425,False Positive,Nodule,0.14965405
+425,False Positive,Pleural_Thickening,0.080662265
+427,False Negative (Missed),Effusion,0.25031033
+427,False Positive,Infiltration,0.19156644
+427,False Negative (Missed),Mass,0.033903774
+428,False Negative (Missed),Infiltration,0.034707744
+428,False Negative (Missed),Mass,0.01965233
+429,False Negative (Missed),Infiltration,0.030666433
+429,False Positive,Nodule,0.15366657
+429,False Positive,Pneumothorax,0.24274845
+429,False Positive,Fibrosis,0.09650675
+431,False Positive,Atelectasis,0.118088536
+431,False Positive,Infiltration,0.19402647
+431,False Positive,Pleural_Thickening,0.07006355
+432,False Positive,Atelectasis,0.17510746
+432,False Positive,Effusion,0.57276607
+432,False Positive,Infiltration,0.16673082
+432,False Positive,Mass,0.11144564
+432,False Positive,Pleural_Thickening,0.39041874
+433,False Positive,Atelectasis,0.25164342
+433,False Negative (Missed),Effusion,0.102061644
+433,False Positive,Consolidation,0.078345
+434,False Positive,Infiltration,0.25628334
+435,False Positive,Atelectasis,0.17522052
+435,False Negative (Missed),Effusion,0.10401447
+436,False Positive,Atelectasis,0.19557878
+437,False Negative (Missed),Effusion,0.11784023
+437,False Negative (Missed),Pneumothorax,0.07967681
+441,False Positive,Infiltration,0.38462174
+441,False Negative (Missed),Pleural_Thickening,0.010009908
+442,False Positive,Infiltration,0.1807077
+443,False Positive,Infiltration,0.15422092
+443,False Negative (Missed),Edema,0.014889632
+445,False Positive,Infiltration,0.23094836
+446,False Positive,Atelectasis,0.24114136
+446,False Positive,Consolidation,0.055642623
+447,False Positive,Infiltration,0.19801141
+449,False Negative (Missed),Effusion,0.12805067
+449,False Negative (Missed),Infiltration,0.113650374
+450,False Positive,Atelectasis,0.11064345
+450,False Positive,Effusion,0.5774158
+450,False Positive,Mass,0.19725521
+450,False Positive,Pneumothorax,0.37524772
+450,False Positive,Consolidation,0.1426511
+450,False Negative (Missed),Pleural_Thickening,0.0383926
+451,False Positive,Infiltration,0.26189435
+452,False Negative (Missed),Effusion,0.29539493
+452,False Positive,Pleural_Thickening,0.07862621
+453,False Positive,Effusion,0.41555643
+453,False Positive,Infiltration,0.35525507
+453,False Positive,Nodule,0.100687884
+453,False Positive,Pneumothorax,0.2409031
+453,False Positive,Consolidation,0.08278239
+454,False Positive,Infiltration,0.26402047
+454,False Negative (Missed),Edema,0.06353592
+455,False Positive,Infiltration,0.13587543
+456,False Positive,Atelectasis,0.42568204
+456,False Positive,Consolidation,0.060106948
+456,False Negative (Missed),Edema,0.023905393
+457,False Positive,Infiltration,0.17514104
+458,False Positive,Infiltration,0.25852805
+461,False Positive,Infiltration,0.16047218
+461,False Negative (Missed),Mass,0.085053965
+461,False Positive,Nodule,0.1556672
+462,False Positive,Atelectasis,0.2788932
+462,False Positive,Effusion,0.5680546
+462,False Positive,Consolidation,0.17289786
+463,False Positive,Nodule,0.1267149
+464,False Positive,Infiltration,0.35092953
+465,False Positive,Infiltration,0.24833278
+466,False Positive,Infiltration,0.15170418
+467,False Positive,Infiltration,0.15128876
+467,False Negative (Missed),Pneumothorax,0.056081086
+467,False Negative (Missed),Emphysema,0.0033130872
+468,False Negative (Missed),Nodule,0.013531927
+469,False Positive,Infiltration,0.1492605
+471,False Positive,Infiltration,0.26226085
+472,False Negative (Missed),Mass,0.081294045
+472,False Positive,Nodule,0.10604654
+472,False Negative (Missed),Consolidation,0.011620221
+473,False Positive,Infiltration,0.17719045
+474,False Positive,Atelectasis,0.12987106
+474,False Positive,Effusion,0.39702362
+474,False Positive,Infiltration,0.29320306
+474,False Positive,Consolidation,0.082428515
+475,False Positive,Infiltration,0.1829378
+476,False Positive,Infiltration,0.23508374
+477,False Positive,Infiltration,0.19909668
+477,False Negative (Missed),Mass,0.018815715
+477,False Negative (Missed),Pneumothorax,0.033562567
+482,False Positive,Infiltration,0.19882914
+484,False Positive,Pleural_Thickening,0.07060575
+485,False Positive,Infiltration,0.18687432
+485,False Negative (Missed),Nodule,0.023708893
+486,False Negative (Missed),Nodule,0.049344447
+487,False Positive,Infiltration,0.13550454
+488,False Positive,Atelectasis,0.13436641
+488,False Positive,Infiltration,0.18281625
+488,False Positive,Consolidation,0.44913092
+488,False Positive,Edema,0.23751457
+489,False Positive,Nodule,0.11132128
+489,False Negative (Missed),Pleural_Thickening,0.057841286
+490,False Negative (Missed),Mass,0.020022247
+490,False Positive,Consolidation,0.051428102
+491,False Positive,Pneumonia,0.055407226
+491,False Positive,Consolidation,0.06760129
+493,False Negative (Missed),Effusion,0.1408753
+494,False Positive,Infiltration,0.2197197
+495,False Positive,Effusion,0.3341282
+495,False Positive,Infiltration,0.19452524
+495,False Positive,Consolidation,0.05699093
+496,False Positive,Infiltration,0.14210235
+497,False Positive,Infiltration,0.19698864
+497,False Negative (Missed),Nodule,0.01230067
+499,False Positive,Atelectasis,0.15392743
+499,False Negative (Missed),Effusion,0.15278272
+500,False Negative (Missed),Effusion,0.07877151
+500,False Negative (Missed),Infiltration,0.09316925
+501,False Positive,Infiltration,0.14904998
+501,False Negative (Missed),Mass,0.0646083
+501,False Negative (Missed),Pneumothorax,0.1192234
+502,False Positive,Infiltration,0.34927216
+503,False Positive,Atelectasis,0.1418509
+503,False Positive,Mass,0.14817934
+503,False Positive,Pleural_Thickening,0.14800802
+504,False Negative (Missed),Effusion,0.21007763
+504,False Positive,Infiltration,0.19115235
+504,False Negative (Missed),Nodule,0.013806268
+505,False Positive,Infiltration,0.21068744
+507,False Positive,Atelectasis,0.404519
+507,False Positive,Effusion,0.5008523
+507,False Positive,Infiltration,0.3075004
+507,False Positive,Consolidation,0.24232922
+508,False Negative (Missed),Nodule,0.017734546
+509,False Negative (Missed),Atelectasis,0.042063702
+509,False Negative (Missed),Effusion,0.19315435
+509,False Positive,Infiltration,0.13349263
+510,False Positive,Infiltration,0.21410182
+511,False Positive,Infiltration,0.20598376
+513,False Positive,Infiltration,0.18866555
+513,False Negative (Missed),Pneumonia,0.013112439
+513,False Positive,Consolidation,0.12193036
+514,False Positive,Infiltration,0.1516085
+514,False Positive,Consolidation,0.051964194
+515,False Positive,Effusion,0.6147323
+515,False Positive,Infiltration,0.37170947
+515,False Positive,Consolidation,0.10336427
+516,False Positive,Infiltration,0.15424293
+517,False Positive,Infiltration,0.24831429
+518,False Positive,Infiltration,0.39324695
+518,False Positive,Nodule,0.12395859
+518,False Negative (Missed),Fibrosis,0.006438569
+518,False Positive,Pleural_Thickening,0.0758536
+520,False Positive,Atelectasis,0.20374066
+520,False Positive,Effusion,0.376239
+520,False Positive,Infiltration,0.23668198
+520,False Positive,Consolidation,0.14320028
+521,False Negative (Missed),Effusion,0.21801367
+521,False Positive,Infiltration,0.21237558
+521,False Positive,Consolidation,0.24580325
+521,False Positive,Edema,0.223435
+523,False Positive,Infiltration,0.17071293
+523,False Negative (Missed),Mass,0.028782738
+523,False Negative (Missed),Nodule,0.022639787
+523,False Positive,Pleural_Thickening,0.07427152
+524,False Positive,Infiltration,0.13482063
+525,False Negative (Missed),Fibrosis,0.0018235008
+526,False Positive,Infiltration,0.44688678
+526,False Positive,Pneumonia,0.101892725
+526,False Negative (Missed),Edema,0.17770606
+527,False Positive,Effusion,0.36093715
+527,False Positive,Consolidation,0.1459732
+528,False Positive,Infiltration,0.44529316
+528,False Positive,Consolidation,0.096189134
+529,False Negative (Missed),Infiltration,0.079185754
+530,False Positive,Infiltration,0.14887659
+530,False Positive,Fibrosis,0.06638589
+530,False Positive,Pleural_Thickening,0.1453356
+531,False Positive,Atelectasis,0.13912962
+531,False Positive,Effusion,0.6433399
+531,False Positive,Infiltration,0.29529095
+531,False Positive,Nodule,0.09194998
+531,False Positive,Consolidation,0.13012677
+532,False Negative (Missed),Infiltration,0.10000038
+532,False Positive,Consolidation,0.0645365
+533,False Positive,Infiltration,0.20428048
+536,False Positive,Atelectasis,0.19667605
+536,False Positive,Infiltration,0.16528131
+536,False Positive,Pleural_Thickening,0.13461584
+537,False Negative (Missed),Atelectasis,0.05444022
+537,False Positive,Infiltration,0.33544636
+537,False Positive,Pleural_Thickening,0.07033881
+538,False Positive,Infiltration,0.15686813
+539,False Positive,Infiltration,0.3070838
+539,False Positive,Pneumothorax,0.39994377
+540,False Positive,Infiltration,0.16743617
+540,False Negative (Missed),Consolidation,0.018567134
+541,False Positive,Infiltration,0.35030463
+541,False Positive,Nodule,0.10048101
+542,False Positive,Infiltration,0.14991085
+542,False Positive,Mass,0.1668276
+543,False Negative (Missed),Mass,0.02467774
+543,False Positive,Consolidation,0.106641725
+544,False Positive,Infiltration,0.2882801
+545,False Negative (Missed),Infiltration,0.061549254
+546,False Positive,Infiltration,0.14220963
+547,False Positive,Infiltration,0.20363863
+548,False Positive,Atelectasis,0.27387586
+548,False Positive,Infiltration,0.148086
+548,False Negative (Missed),Nodule,0.026894199
+548,False Positive,Pneumothorax,0.43794715
+549,False Positive,Infiltration,0.14289889
+549,False Positive,Consolidation,0.050609883
+549,False Negative (Missed),Edema,0.057721872
+550,False Positive,Atelectasis,0.12518156
+550,False Positive,Effusion,0.4851705
+550,False Positive,Infiltration,0.22164662
+550,False Positive,Nodule,0.13953407
+550,False Positive,Pneumothorax,0.3908683
+550,False Positive,Consolidation,0.0666292
+550,False Negative (Missed),Edema,0.06562991
+550,False Positive,Fibrosis,0.09493723
+554,False Positive,Atelectasis,0.27688718
+554,False Negative (Missed),Infiltration,0.115948185
+555,False Positive,Infiltration,0.16272922
+555,False Negative (Missed),Nodule,0.031139897
+556,False Positive,Infiltration,0.26234126
+556,False Positive,Nodule,0.13149779
+556,False Positive,Fibrosis,0.061009053
+556,False Positive,Pleural_Thickening,0.071779765
+557,False Positive,Atelectasis,0.110380046
+557,False Positive,Effusion,0.36680004
+558,False Positive,Infiltration,0.23330516
+558,False Negative (Missed),Pneumothorax,0.08588516
+559,False Positive,Infiltration,0.15891588
+559,False Negative (Missed),Mass,0.060057428
+559,False Positive,Nodule,0.1789463
+559,False Negative (Missed),Pneumothorax,0.086402036
+559,False Negative (Missed),Pleural_Thickening,0.0293375
+560,False Negative (Missed),Infiltration,0.12261676
+561,False Positive,Nodule,0.1046947
+561,False Positive,Pleural_Thickening,0.086062625
+562,False Negative (Missed),Atelectasis,0.06487423
+562,False Positive,Infiltration,0.15285091
+564,False Positive,Consolidation,0.093126245
+565,False Positive,Atelectasis,0.11658663
+565,False Positive,Infiltration,0.2576118
+565,False Positive,Nodule,0.096114144
+566,False Negative (Missed),Infiltration,0.07301215
+566,False Positive,Consolidation,0.07530416
+567,False Positive,Effusion,0.6668973
+567,False Positive,Pneumonia,0.068191655
+568,False Positive,Infiltration,0.31681997
+569,False Negative (Missed),Atelectasis,0.09975777
+569,False Positive,Infiltration,0.21574803
+569,False Positive,Pneumothorax,0.2587467
+569,False Positive,Consolidation,0.0988309
+569,False Positive,Emphysema,0.11330139
+569,False Positive,Fibrosis,0.05263669
+569,False Positive,Pleural_Thickening,0.18624048
+570,False Positive,Pleural_Thickening,0.07265179
+571,False Positive,Infiltration,0.17786591
+572,False Positive,Atelectasis,0.120841704
+572,False Negative (Missed),Emphysema,0.050643843
+573,False Negative (Missed),Infiltration,0.120728634
+574,False Positive,Atelectasis,0.11758431
+574,False Positive,Infiltration,0.20917203
+574,False Positive,Consolidation,0.05874389
+575,False Positive,Atelectasis,0.3184206
+575,False Negative (Missed),Effusion,0.17224896
+576,False Positive,Atelectasis,0.18813008
+576,False Negative (Missed),Mass,0.07633705
+576,False Negative (Missed),Consolidation,0.0135231195
+577,False Positive,Atelectasis,0.22244914
+577,False Positive,Infiltration,0.15265258
+579,False Positive,Infiltration,0.37792903
+579,False Positive,Pneumonia,0.076748244
+579,False Positive,Consolidation,0.23008029
+579,False Positive,Edema,0.2805051
+580,False Positive,Infiltration,0.273511
+580,False Positive,Pneumonia,0.06788333
+580,False Negative (Missed),Pneumothorax,0.12638451
+580,False Positive,Edema,0.5877112
+581,False Positive,Infiltration,0.16809724
+581,False Positive,Consolidation,0.1428227
+582,False Positive,Infiltration,0.15135717
+583,False Positive,Atelectasis,0.11297216
+583,False Positive,Infiltration,0.24501354
+583,False Negative (Missed),Mass,0.035746977
+583,False Negative (Missed),Pleural_Thickening,0.0056961714
+584,False Positive,Infiltration,0.16840242
+585,False Positive,Infiltration,0.21899813
+585,False Negative (Missed),Nodule,0.044060495
+585,False Negative (Missed),Pleural_Thickening,0.030936258
+586,False Negative (Missed),Mass,0.02966007
+587,False Positive,Infiltration,0.21261583
+587,False Positive,Consolidation,0.06460179
+587,False Negative (Missed),Edema,0.10119414
+588,False Positive,Infiltration,0.16628549
+588,False Positive,Nodule,0.122303285
+589,False Positive,Infiltration,0.19921806
+589,False Positive,Pleural_Thickening,0.07208129
+590,False Positive,Pleural_Thickening,0.082255706
+591,False Positive,Infiltration,0.15967952
+592,False Positive,Infiltration,0.21488068
+592,False Negative (Missed),Nodule,0.0864781
+592,False Positive,Pleural_Thickening,0.14686622
+594,False Positive,Nodule,0.123789996
+595,False Positive,Infiltration,0.33364823
+596,False Positive,Infiltration,0.1910553
+597,False Positive,Infiltration,0.2988286
+598,False Positive,Atelectasis,0.12416048
+598,False Positive,Effusion,0.35050705
+598,False Positive,Mass,0.3356558
+598,False Negative (Missed),Nodule,0.036571104
+598,False Positive,Fibrosis,0.05755955
+598,False Positive,Pleural_Thickening,0.2725138
+599,False Positive,Effusion,0.46422678
+599,False Positive,Infiltration,0.44481644
+599,False Positive,Pneumonia,0.07668703
+599,False Positive,Pneumothorax,0.27217248
+599,False Positive,Consolidation,0.11345148
+600,False Positive,Infiltration,0.21594472
+601,False Positive,Nodule,0.1783078
+601,False Positive,Pneumothorax,0.23266938
+601,False Positive,Fibrosis,0.06619636
+601,False Positive,Pleural_Thickening,0.6538697
+602,False Negative (Missed),Atelectasis,0.10536508
+602,False Negative (Missed),Effusion,0.28636876
+602,False Positive,Infiltration,0.32889357
+602,False Positive,Nodule,0.11022852
+602,False Positive,Pleural_Thickening,0.12327866
+603,False Negative (Missed),Atelectasis,0.043692037
+603,False Positive,Effusion,0.3198044
+603,False Negative (Missed),Infiltration,0.08752878
+603,False Positive,Consolidation,0.1789849
+604,False Positive,Atelectasis,0.12261465
+604,False Positive,Infiltration,0.3349906
+604,False Positive,Consolidation,0.14617297
+605,False Positive,Mass,0.17991497
+605,False Positive,Pneumonia,0.11109357
+605,False Positive,Consolidation,0.28504792
+605,False Positive,Edema,0.5265504
+606,False Positive,Infiltration,0.253768
+609,False Positive,Infiltration,0.29159585
+609,False Positive,Pleural_Thickening,0.11457125
+610,False Positive,Infiltration,0.14545192
+610,False Positive,Mass,0.20971486
+610,False Positive,Nodule,0.099938124
+610,False Positive,Pneumothorax,0.2724454
+610,False Negative (Missed),Consolidation,0.019148888
+612,False Positive,Infiltration,0.15497604
+613,False Positive,Infiltration,0.23435667
+614,False Positive,Infiltration,0.18123303
+615,False Positive,Infiltration,0.22227168
+616,False Positive,Infiltration,0.2477953
+616,False Positive,Pneumonia,0.063387856
+616,False Positive,Consolidation,0.07216926
+617,False Positive,Infiltration,0.3058492
+617,False Negative (Missed),Mass,0.047275715
+617,False Negative (Missed),Fibrosis,0.010978003
+618,False Negative (Missed),Atelectasis,0.037481774
+618,False Positive,Infiltration,0.22382748
+618,False Positive,Nodule,0.11725075
+619,False Positive,Effusion,0.31397977
+619,False Positive,Infiltration,0.22173943
+619,False Positive,Emphysema,0.117470294
+619,False Positive,Pleural_Thickening,0.07254302
+620,False Positive,Infiltration,0.15866823
+621,False Positive,Effusion,0.38802448
+621,False Negative (Missed),Infiltration,0.06637869
+622,False Positive,Infiltration,0.18377224
+622,False Positive,Mass,0.20548442
+622,False Negative (Missed),Pneumothorax,0.17165616
+622,False Positive,Pleural_Thickening,0.10512374
+623,False Positive,Infiltration,0.14568508
+623,False Negative (Missed),Mass,0.07822124
+623,False Negative (Missed),Nodule,0.07206045
+624,False Positive,Effusion,0.31098124
+624,False Positive,Consolidation,0.08954984
+624,False Positive,Edema,0.26224324
+625,False Positive,Atelectasis,0.12896325
+625,False Positive,Infiltration,0.28903568
+626,False Positive,Effusion,0.54219884
+626,False Positive,Pneumothorax,0.29467174
+626,False Positive,Consolidation,0.05710471
+626,False Positive,Edema,0.21389885
+627,False Positive,Infiltration,0.2906036
+627,False Positive,Nodule,0.13539432
+627,False Positive,Pneumonia,0.07278651
+627,False Positive,Pneumothorax,0.36389247
+627,False Positive,Consolidation,0.12926157
+627,False Positive,Emphysema,0.32406205
+628,False Negative (Missed),Atelectasis,0.08270935
+628,False Negative (Missed),Effusion,0.21018104
+628,False Positive,Infiltration,0.25395545
+628,False Negative (Missed),Pneumonia,0.019373389
+628,False Positive,Consolidation,0.07073488
+628,False Negative (Missed),Edema,0.05858609
+629,False Negative (Missed),Effusion,0.23587507
+629,False Positive,Infiltration,0.2839757
+629,False Positive,Consolidation,0.17795244
+629,False Positive,Edema,0.24639997
+630,False Positive,Infiltration,0.24926451
+631,False Positive,Infiltration,0.18552223
+632,False Positive,Atelectasis,0.113670744
+632,False Positive,Effusion,0.31934142
+632,False Positive,Infiltration,0.38895255
+632,False Positive,Consolidation,0.35480237
+632,False Positive,Edema,0.27849093
+633,False Positive,Effusion,0.7484515
+633,False Positive,Infiltration,0.4517055
+633,False Positive,Consolidation,0.19940309
+633,False Positive,Edema,0.38050935
+634,False Positive,Effusion,0.46585312
+634,False Positive,Pneumonia,0.12436504
+634,False Positive,Consolidation,0.06743576
+634,False Negative (Missed),Pleural_Thickening,0.032157756
+635,False Positive,Cardiomegaly,0.10229838
+635,False Positive,Effusion,0.44464445
+635,False Positive,Infiltration,0.49856758
+635,False Positive,Pneumonia,0.09820051
+635,False Positive,Consolidation,0.23777552
+635,False Positive,Pleural_Thickening,0.14972025
+636,False Positive,Effusion,0.33363798
+636,False Positive,Infiltration,0.3753249
+636,False Positive,Consolidation,0.2874072
+636,False Negative (Missed),Edema,0.110962115
+637,False Negative (Missed),Atelectasis,0.027770862
+637,False Positive,Infiltration,0.38430375
+638,False Positive,Infiltration,0.25753832
+638,False Positive,Pneumothorax,0.34768945
+638,False Positive,Pleural_Thickening,0.129209
+639,False Negative (Missed),Atelectasis,0.103333786
+639,False Positive,Effusion,0.5842353
+639,False Positive,Infiltration,0.48911157
+639,False Positive,Pneumonia,0.08348684
+639,False Positive,Pneumothorax,0.3312584
+639,False Positive,Consolidation,0.20083311
+639,False Positive,Edema,0.28279907
+639,False Positive,Pleural_Thickening,0.14629175
+640,False Positive,Effusion,0.33829704
+640,False Positive,Infiltration,0.2673101
+641,False Negative (Missed),Atelectasis,0.015684167
+641,False Positive,Infiltration,0.17130584
+642,False Positive,Atelectasis,0.2333262
+642,False Positive,Consolidation,0.078759655
+643,False Positive,Effusion,0.37218937
+643,False Positive,Infiltration,0.17149411
+643,False Positive,Consolidation,0.18156604
+644,False Positive,Infiltration,0.13498336
+644,False Positive,Consolidation,0.08295693
+645,False Negative (Missed),Pneumothorax,0.09545201
+648,False Positive,Infiltration,0.16466792
+648,False Positive,Pleural_Thickening,0.16406605
+649,False Positive,Consolidation,0.11666008
+649,False Positive,Pleural_Thickening,0.08919462
+650,False Positive,Atelectasis,0.29687697
+650,False Negative (Missed),Nodule,0.041278083
+650,False Positive,Pneumonia,0.06678649
+650,False Positive,Consolidation,0.24545951
+650,False Positive,Pleural_Thickening,0.07927178
+651,False Negative (Missed),Infiltration,0.118213475
+651,False Negative (Missed),Nodule,0.048471503
+651,False Positive,Pleural_Thickening,0.09246352
+652,False Positive,Infiltration,0.19510037
+653,False Positive,Infiltration,0.16134071
+654,False Negative (Missed),Infiltration,0.12180136
+655,False Positive,Infiltration,0.1756056
+656,False Negative (Missed),Infiltration,0.12144097
+657,False Negative (Missed),Mass,0.0077106454
+657,False Positive,Nodule,0.11171983
+659,False Positive,Infiltration,0.22565079
+659,False Positive,Consolidation,0.05720463
+660,False Positive,Infiltration,0.26966566
+661,False Positive,Infiltration,0.23645218
+662,False Positive,Infiltration,0.14888977
+663,False Positive,Effusion,0.4755024
+663,False Positive,Infiltration,0.42670518
+663,False Positive,Pneumothorax,0.30861226
+663,False Positive,Consolidation,0.06574729
+663,False Positive,Edema,0.267526
+664,False Positive,Effusion,0.37036458
+664,False Positive,Infiltration,0.18637012
+664,False Negative (Missed),Consolidation,0.033328902
+665,False Negative (Missed),Edema,0.021674769
+666,False Positive,Atelectasis,0.12633549
+666,False Negative (Missed),Cardiomegaly,0.0036205552
+666,False Positive,Infiltration,0.27421921
+666,False Positive,Pleural_Thickening,0.09496882
+667,False Positive,Atelectasis,0.43414325
+667,False Positive,Nodule,0.119875535
+667,False Positive,Pneumonia,0.07178765
+668,False Positive,Infiltration,0.16935277
+668,False Positive,Fibrosis,0.07357855
+668,False Positive,Pleural_Thickening,0.09238159
+669,False Positive,Infiltration,0.21706523
+670,False Positive,Infiltration,0.13469635
+671,False Positive,Effusion,0.6236299
+671,False Positive,Infiltration,0.25179002
+671,False Positive,Mass,0.33078724
+671,False Positive,Nodule,0.1420934
+671,False Positive,Pneumothorax,0.47859016
+671,False Negative (Missed),Consolidation,0.032428216
+672,False Positive,Infiltration,0.24698132
+673,False Positive,Atelectasis,0.5509738
+673,False Positive,Effusion,0.7394558
+673,False Positive,Mass,0.15359204
+673,False Positive,Pneumonia,0.0628023
+673,False Positive,Consolidation,0.083977684
+673,False Positive,Emphysema,0.6985726
+673,False Positive,Pleural_Thickening,0.07848622
+675,False Positive,Infiltration,0.13860714
+676,False Positive,Infiltration,0.22516876
+677,False Positive,Infiltration,0.2033247
+677,False Negative (Missed),Fibrosis,0.0073142913
+678,False Positive,Infiltration,0.21041004
+679,False Positive,Atelectasis,0.14391415
+681,False Negative (Missed),Atelectasis,0.08246634
+681,False Positive,Effusion,0.32003155
+681,False Positive,Infiltration,0.29695565
+681,False Positive,Pneumonia,0.13275422
+682,False Positive,Infiltration,0.13448194
+682,False Positive,Emphysema,0.1888479
+683,False Positive,Infiltration,0.18991283
+685,False Positive,Infiltration,0.41080973
+685,False Negative (Missed),Nodule,0.053324383
+686,False Negative (Missed),Atelectasis,0.010983814
+686,False Positive,Infiltration,0.20400298
+687,False Positive,Atelectasis,0.16696948
+687,False Negative (Missed),Effusion,0.17973009
+687,False Positive,Pleural_Thickening,0.091880165
+688,False Negative (Missed),Atelectasis,0.043567386
+688,False Negative (Missed),Cardiomegaly,0.016753735
+688,False Negative (Missed),Effusion,0.06989937
+688,False Positive,Pleural_Thickening,0.07339437
+689,False Positive,Consolidation,0.07046467
+690,False Positive,Infiltration,0.2232944
+692,False Positive,Atelectasis,0.17312545
+695,False Positive,Nodule,0.10506337
+696,False Positive,Infiltration,0.14720394
+696,False Positive,Mass,0.13279448
+696,False Positive,Pleural_Thickening,0.20907085
+702,False Positive,Atelectasis,0.21962611
+702,False Positive,Infiltration,0.16377926
+703,False Positive,Infiltration,0.28733298
+704,False Positive,Infiltration,0.15123987
+705,False Positive,Infiltration,0.16496676
+705,False Negative (Missed),Pleural_Thickening,0.023716295
+707,False Positive,Atelectasis,0.13824582
+707,False Positive,Effusion,0.71915424
+707,False Positive,Infiltration,0.1581558
+707,False Positive,Pneumonia,0.19188344
+707,False Positive,Consolidation,0.20919457
+707,False Positive,Pleural_Thickening,0.11843373
+708,False Positive,Atelectasis,0.15493451
+709,False Positive,Nodule,0.09975207
+709,False Positive,Pneumonia,0.10400268
+709,False Positive,Pneumothorax,0.25735942
+709,False Positive,Consolidation,0.05340609
+710,False Positive,Atelectasis,0.11630252
+710,False Positive,Infiltration,0.30884382
+710,False Positive,Pneumonia,0.05330401
+710,False Positive,Consolidation,0.060549196
+711,False Positive,Infiltration,0.38678288
+711,False Positive,Consolidation,0.13039264
+711,False Negative (Missed),Edema,0.16144906
+712,False Positive,Atelectasis,0.31561813
+712,False Positive,Effusion,0.56519425
+712,False Positive,Infiltration,0.2239038
+712,False Positive,Consolidation,0.32535836
+712,False Positive,Pleural_Thickening,0.09046006
+713,False Positive,Infiltration,0.19561432
+715,False Positive,Infiltration,0.45295486
+716,False Positive,Infiltration,0.24287535
+717,False Positive,Infiltration,0.22003934
+717,False Positive,Pneumonia,0.05881268
+717,False Positive,Pneumothorax,0.27805355
+718,False Positive,Effusion,0.38681936
+718,False Negative (Missed),Infiltration,0.11223509
+718,False Positive,Mass,0.18029258
+718,False Positive,Pneumothorax,0.36260587
+718,False Negative (Missed),Consolidation,0.033336047
+718,False Positive,Fibrosis,0.052358363
+718,False Negative (Missed),Pleural_Thickening,0.058470134
+719,False Positive,Infiltration,0.22810058
+720,False Positive,Atelectasis,0.13575275
+720,False Positive,Infiltration,0.27665943
+720,False Positive,Pneumonia,0.085617706
+721,False Negative (Missed),Atelectasis,0.04310957
+721,False Negative (Missed),Effusion,0.13873316
+721,False Positive,Infiltration,0.23880535
+722,False Negative (Missed),Effusion,0.3051989
+722,False Positive,Infiltration,0.26069617
+722,False Negative (Missed),Mass,0.043460973
+722,False Positive,Pneumonia,0.10014755
+722,False Positive,Consolidation,0.108199514
+723,False Positive,Infiltration,0.22086336
+724,False Positive,Infiltration,0.14727473
+725,False Negative (Missed),Infiltration,0.08539739
+726,False Positive,Infiltration,0.34406516
+727,False Positive,Infiltration,0.17269644
+727,False Positive,Pneumothorax,0.24085605
+729,False Positive,Effusion,0.42057657
+729,False Positive,Infiltration,0.16432758
+729,False Positive,Mass,0.13125114
+729,False Positive,Pneumothorax,0.23279558
+729,False Positive,Consolidation,0.051111788
+729,False Negative (Missed),Emphysema,0.069695465
+730,False Positive,Infiltration,0.36538067
+731,False Positive,Effusion,0.3789343
+731,False Positive,Consolidation,0.21293542
+732,False Negative (Missed),Cardiomegaly,0.009127259
+732,False Positive,Consolidation,0.13747488
+733,False Positive,Effusion,0.45197505
+733,False Negative (Missed),Nodule,0.015855476
+733,False Positive,Consolidation,0.1643591
+733,False Positive,Pleural_Thickening,0.072064504
+735,False Positive,Pneumonia,0.05641768
+735,False Positive,Pleural_Thickening,0.07221752
+736,False Positive,Atelectasis,0.31296158
+736,False Positive,Consolidation,0.051567495
+737,False Positive,Atelectasis,0.40905187
+737,False Positive,Effusion,0.84896076
+737,False Positive,Pleural_Thickening,0.070004046
+738,False Positive,Consolidation,0.06787037
+739,False Negative (Missed),Effusion,0.16592935
+739,False Negative (Missed),Infiltration,0.08915978
+739,False Negative (Missed),Pneumothorax,0.036203515
+740,False Positive,Consolidation,0.062644444
+741,False Positive,Infiltration,0.18369399
+742,False Positive,Infiltration,0.30617416
+742,False Positive,Mass,0.21431601
+742,False Positive,Nodule,0.64034367
+742,False Positive,Pneumonia,0.24028254
+742,False Negative (Missed),Emphysema,0.0020434046
+742,False Positive,Fibrosis,0.0677689
+742,False Positive,Pleural_Thickening,0.3263334
+743,False Negative (Missed),Edema,0.12365038
+744,False Positive,Infiltration,0.18377472
+745,False Positive,Infiltration,0.17192529
+746,False Positive,Atelectasis,0.14634389
+746,False Positive,Effusion,0.62160933
+746,False Positive,Pneumonia,0.11210801
+746,False Positive,Consolidation,0.15527606
+746,False Positive,Edema,0.31835642
+747,False Negative (Missed),Effusion,0.14645985
+747,False Negative (Missed),Pneumothorax,0.15681724
+747,False Positive,Pleural_Thickening,0.21094398
+748,False Positive,Effusion,0.41659498
+748,False Positive,Infiltration,0.29443926
+748,False Positive,Mass,0.20888108
+748,False Positive,Nodule,0.11354367
+748,False Positive,Pneumothorax,0.4995814
+748,False Positive,Pleural_Thickening,0.07767103
+749,False Positive,Atelectasis,0.18116595
+749,False Positive,Cardiomegaly,0.15702304
+749,False Positive,Effusion,0.6537341
+749,False Positive,Pneumonia,0.06940876
+749,False Positive,Consolidation,0.21010692
+749,False Positive,Edema,0.3207776
+749,False Positive,Pleural_Thickening,0.1790771
+750,False Negative (Missed),Effusion,0.24405864
+750,False Positive,Nodule,0.10423463
+750,False Positive,Pneumonia,0.050409026
+750,False Positive,Pneumothorax,0.3318144
+750,False Positive,Pleural_Thickening,0.30916172
+751,False Positive,Atelectasis,0.18436861
+751,False Positive,Effusion,0.4320794
+751,False Positive,Infiltration,0.32551926
+751,False Positive,Pneumonia,0.07708957
+751,False Positive,Consolidation,0.1264102
+751,False Positive,Edema,0.4925299
+752,False Positive,Infiltration,0.141177
+752,False Positive,Pleural_Thickening,0.07691268
+753,False Positive,Infiltration,0.18359955
+753,False Positive,Pleural_Thickening,0.10706485
+754,False Positive,Infiltration,0.14280228
+756,False Positive,Infiltration,0.19023798
+757,False Positive,Infiltration,0.19189326
+758,False Positive,Infiltration,0.14613238
+759,False Positive,Atelectasis,0.11647449
+759,False Negative (Missed),Effusion,0.22752324
+759,False Positive,Infiltration,0.13810918
+760,False Positive,Atelectasis,0.120868936
+761,False Negative (Missed),Infiltration,0.08846482
+762,False Positive,Infiltration,0.44127715
+762,False Positive,Nodule,0.10707388
+762,False Positive,Consolidation,0.118043266
+762,False Positive,Pleural_Thickening,0.070756376
+763,False Positive,Atelectasis,0.18352042
+763,False Positive,Infiltration,0.13086912
+763,False Positive,Mass,0.13863702
+763,False Positive,Pleural_Thickening,0.08568767
+764,False Positive,Infiltration,0.16833174
+764,False Positive,Fibrosis,0.0644761
+765,False Positive,Infiltration,0.16501552
+766,False Positive,Infiltration,0.21795335
+767,False Positive,Infiltration,0.20637725
+769,False Positive,Infiltration,0.28194
+769,False Positive,Nodule,0.13669221
+770,False Positive,Infiltration,0.17593324
+771,False Positive,Atelectasis,0.15535949
+771,False Positive,Effusion,0.76244366
+771,False Positive,Consolidation,0.08576609
+771,False Positive,Pleural_Thickening,0.18245056
+773,False Positive,Infiltration,0.24019273
+774,False Positive,Pneumonia,0.118419364
+774,False Positive,Consolidation,0.30529764
+775,False Positive,Infiltration,0.14329332
+776,False Positive,Infiltration,0.2500017
+777,False Positive,Infiltration,0.24101463
+777,False Positive,Nodule,0.202144
+778,False Positive,Nodule,0.09286852
+780,False Positive,Consolidation,0.060945004
+780,False Positive,Pleural_Thickening,0.11921405
+781,False Positive,Infiltration,0.45519316
+781,False Positive,Consolidation,0.17029423
+782,False Positive,Infiltration,0.2428919
+783,False Positive,Infiltration,0.1839357
+784,False Positive,Infiltration,0.22204988
+785,False Positive,Infiltration,0.20845138
+787,False Positive,Infiltration,0.19472614
+788,False Negative (Missed),Infiltration,0.07690279
+788,False Positive,Pleural_Thickening,0.20159248
+789,False Positive,Pleural_Thickening,0.0714598
+790,False Negative (Missed),Atelectasis,0.087562166
+790,False Positive,Infiltration,0.2145446
+790,False Negative (Missed),Mass,0.03329104
+790,False Positive,Nodule,0.1544962
+790,False Positive,Pneumothorax,0.31454787
+790,False Negative (Missed),Consolidation,0.01690559
+791,False Positive,Effusion,0.40597454
+791,False Positive,Consolidation,0.08143002
+791,False Positive,Pleural_Thickening,0.09674564
+792,False Positive,Infiltration,0.17268577
+792,False Positive,Nodule,0.11871645
+793,False Negative (Missed),Cardiomegaly,0.05090627
+794,False Positive,Infiltration,0.16772264
+795,False Positive,Infiltration,0.15935396
+796,False Negative (Missed),Atelectasis,0.083717234
+796,False Negative (Missed),Effusion,0.15323506
+796,False Positive,Mass,0.13081183
+796,False Positive,Nodule,0.22215603
+796,False Positive,Pneumonia,0.16269474
+797,False Negative (Missed),Effusion,0.24751583
+797,False Positive,Nodule,0.20882033
+798,False Positive,Atelectasis,0.35951394
+798,False Negative (Missed),Cardiomegaly,0.04100767
+798,False Positive,Effusion,0.38451
+798,False Positive,Mass,0.12245019
+798,False Positive,Nodule,0.16490225
+798,False Positive,Pleural_Thickening,0.10753091
+799,False Negative (Missed),Effusion,0.28667805
+799,False Negative (Missed),Nodule,0.08795744
+800,False Positive,Nodule,0.15338837
+801,False Positive,Infiltration,0.2258391
+803,False Positive,Infiltration,0.1506932
+804,False Positive,Effusion,0.34258088
+804,False Positive,Infiltration,0.17328528
+804,False Negative (Missed),Pneumothorax,0.2007603
+804,False Negative (Missed),Emphysema,0.095951416
+804,False Positive,Pleural_Thickening,0.10215143
+805,False Positive,Infiltration,0.27331176
+806,False Positive,Infiltration,0.20939946
+807,False Positive,Infiltration,0.30955902
+808,False Negative (Missed),Atelectasis,0.080218315
+808,False Positive,Infiltration,0.2706159
+808,False Negative (Missed),Fibrosis,0.003580714
+809,False Positive,Effusion,0.39753497
+809,False Positive,Infiltration,0.2596136
+809,False Positive,Consolidation,0.07704911
+810,False Positive,Infiltration,0.1611067
+811,False Positive,Atelectasis,0.2588618
+811,False Positive,Infiltration,0.15500113
+811,False Positive,Nodule,0.22762866
+812,False Positive,Infiltration,0.1674872
+813,False Positive,Mass,0.1158381
+813,False Positive,Nodule,0.17891331
+814,False Negative (Missed),Atelectasis,0.07203808
+814,False Negative (Missed),Infiltration,0.050069697
+814,False Positive,Pleural_Thickening,0.116571106
+815,False Negative (Missed),Mass,0.014185016
+815,False Negative (Missed),Pneumothorax,0.14218482
+816,False Positive,Atelectasis,0.12552305
+816,False Negative (Missed),Infiltration,0.07329562
+816,False Positive,Nodule,0.14789392
+816,False Positive,Pleural_Thickening,0.2774577
+817,False Positive,Infiltration,0.21673521
+819,False Negative (Missed),Atelectasis,0.05505224
+819,False Positive,Infiltration,0.17505857
+820,False Positive,Infiltration,0.14763552
+820,False Negative (Missed),Nodule,0.024383618
+821,False Positive,Infiltration,0.17780581
+822,False Negative (Missed),Atelectasis,0.029775953
+822,False Positive,Consolidation,0.23832032
+823,False Negative (Missed),Atelectasis,0.03243623
+823,False Positive,Infiltration,0.18797329
+825,False Positive,Infiltration,0.22428735
