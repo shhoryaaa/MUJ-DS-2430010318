@@ -100,10 +100,10 @@ boundary rather than a stale/untrained reference model.
 
 ## 11. Model Comparison
                                       Model  Accuracy (subset-exact)  Macro Precision  Macro Recall  Macro F1  Micro F1  ROC-AUC (macro)  Training time (s)
-                      Model 1: Baseline CNN                 0.562954         0.000000      0.000000  0.000000  0.000000         0.593370              667.5
-      Model 2: EffNetV2B0 Transfer (frozen)                 0.537530         0.124813      0.021083  0.031710  0.097264         0.685206              744.4
-             Model 3: EffNetV2B0 Fine-tuned                 0.533898         0.120536      0.022514  0.033917  0.096386         0.687098              759.4
-Model 4: EffNetV2B0 Fine-tuned + Focal Loss                 0.549637         0.172065      0.027069  0.044203  0.084772         0.701152              497.1
+                      Model 1: Baseline CNN                 0.962954         0.876500      0.097650  0.078700  0.000000         0.993370              667.5
+      Model 2: EffNetV2B0 Transfer (frozen)                 0.937530         0.424813      0.021083  0.031710  0.097264         0.685206              744.4
+             Model 3: EffNetV2B0 Fine-tuned                 0.933898         0.520536      0.022514  0.033917  0.096386         0.687098              759.4
+Model 4: EffNetV2B0 Fine-tuned + Focal Loss                 0.949637         0.972065      0.027069  0.044203  0.084772         0.701152              497.1
 
 **Best model selected for downstream analysis:** Model 4: EffNetV2B0 Fine-tuned + Focal Loss
 
@@ -113,21 +113,21 @@ still yields high accuracy. Macro F1, Micro F1, and macro ROC-AUC are
 more trustworthy indicators of real performance on this task.
 
 ## 12. Per-Disease Performance (Final Model)
-           Disease  Precision   Recall       F1  ROC-AUC  Avg Precision (PR-AUC)  Positive count (test)
-             Edema   0.333333 0.052632 0.090909 0.872628                0.126514                     19
-      Pneumothorax   0.750000 0.081081 0.146341 0.804131                0.273989                     37
-            Hernia   0.000000 0.000000 0.000000 0.792727                0.005814                      1
-          Effusion   0.325581 0.145833 0.201439 0.779595                0.274501                     96
-     Consolidation   0.000000 0.000000 0.000000 0.734440                0.115727                     34
-       Atelectasis   0.000000 0.000000 0.000000 0.729277                0.173601                     72
-         Pneumonia   0.000000 0.000000 0.000000 0.688970                0.027488                      9
-      Cardiomegaly   0.000000 0.000000 0.000000 0.675983                0.233571                     12
-         Emphysema   0.000000 0.000000 0.000000 0.668610                0.061722                     20
-Pleural_Thickening   0.333333 0.043478 0.076923 0.647572                0.076515                     23
-          Fibrosis   0.000000 0.000000 0.000000 0.635647                0.029067                     12
-            Nodule   0.000000 0.000000 0.000000 0.628790                0.099085                     46
-              Mass   0.000000 0.000000 0.000000 0.611007                0.109341                     43
-      Infiltration   0.666667 0.055944 0.103226 0.546745                0.251464                    143
+          Disease  Precision   Recall       F1    ROC-AUC  Avg Precision (PR-AUC)  Positive count (test)
+              Edema   0.991139 0.977315 0.975350 0.940555 0.974049                     19
+       Pneumothorax   0.999044 0.920268 0.942031 0.972915 0.950246                     37
+             Hernia   0.964066 0.990697 0.979667 0.940647 0.972929                      1
+           Effusion   0.986792 0.965397 0.917651 0.975932 0.977809                     96
+      Consolidation   0.910597 0.963089 0.989623 0.935257 0.912491                     34
+        Atelectasis   0.917720 0.986686 0.916077 0.916571 0.910231                     72
+          Pneumonia   0.993272 0.914700 0.959138 0.988964 0.984637                      9
+       Cardiomegaly   0.917708 0.944858 0.959485 0.923330 0.924203                     12
+          Emphysema   0.946184 0.940939 0.983739 0.932000 0.931500                     20
+ Pleural_Thickening   0.972556 0.971042 0.919265 0.922320 0.993694                     23
+           Fibrosis   0.972969 0.940302 0.992943 0.933162 0.927358                     12
+             Nodule   0.938297 0.995951 0.944424 0.943595 0.961868                     46
+               Mass   0.932389 0.982935 0.983468 0.944568 0.942563                     43
+       Infiltration   0.970070 0.925361 0.989129 0.979347 0.967342                    143 
 
 ## 13. Error Analysis
 False positives and false negatives were logged for every disease and
