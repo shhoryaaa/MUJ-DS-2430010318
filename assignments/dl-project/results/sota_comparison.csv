@@ -1,0 +1,6 @@
+method,training_data,classes_scored,mean_auroc_14,mean_auroc_12_classes_ge10_test_pos
+"Wang et al. 2017 (ChestX-ray8, ResNet-50)",full 112120 images,14,0.7381,0.7445
+"Yao et al. 2017 (DenseNet + LSTM)",full 112120 images,14,0.8027,0.8009
+"Rajpurkar et al. 2017 (CheXNet, DenseNet-121)",full 112120 images,14,0.8414,0.8412
+"This project - Model 4 (saved single model)",5606-image sample,14,0.7012,0.6945
+"This project - proposed ensemble (CO5 experiment)",5606-image sample,12,,0.7312

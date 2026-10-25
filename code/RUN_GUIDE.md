@@ -1,38 +1,29 @@
-# Running the Helpers
+# Run guide
 
-## Environment
-Use Google Colab or a Python environment with TensorFlow installed.
-The full training notebook handles dataset acquisition and model training.
-These scripts are helpers; they are not a replacement for the notebook.
+## Option A - Google Colab (recommended, free T4 GPU)
+1. Runtime -> Change runtime type -> GPU.
+2. `!git clone https://github.com/shhoryaaa/MUJ-DS-2430010318.git && cd MUJ-DS-2430010318/code`
+3. `!pip install -q -r requirements.txt`
+4. Kaggle credentials (once per session): upload `kaggle.json` to `/root/.kaggle/` or follow the `kagglehub` prompt.
+5. `import kagglehub; path = kagglehub.dataset_download("nih-chest-xrays/sample"); print(path)`
+6. `!python -m src.train --data-dir {path} --out-dir runs/exp1` (about 45 minutes on a T4)
+7. Inference: `!python -m src.predict --model runs/exp1/final_best_model.keras --thresholds runs/exp1/optimized_thresholds.json --image some_xray.png`
 
-## Label parsing
-```python
-from label_utils import to_multihot
-y = to_multihot("Effusion|Mass")
-print(y.shape)  # (14,)
+## Option B - local machine
 ```
-
-## Patient split audit
-```python
-from split_audit import assert_patient_isolation
-assert_patient_isolation(train_patient_ids, val_patient_ids, test_patient_ids)
+python -m venv .venv && source .venv/bin/activate        # Windows: .venv\Scripts\activate
+pip install -r code/requirements.txt
+python -m unittest discover -s code/tests -v              # no GPU needed
 ```
+Training needs a CUDA-capable GPU with a TensorFlow build matching your CUDA version.
 
-## Metric calculation
-```python
-from metrics import calculate_metrics
-result = calculate_metrics(y_test, y_prob, threshold=0.5, label_names=LABELS)
-print(result["macro_f1"])
-```
+## Expected outputs
+`optimized_thresholds.json`, `test_report.json` (per-disease precision/recall/F1/AUC/AP and TP/FP/FN/TN), `final_best_model.keras`. Re-running will not reproduce the third decimal exactly because GPU kernels are not fully deterministic.
 
-`y_prob` must be model probabilities for exactly the same ordered labels as
-`y_test`. Choose tuned thresholds using validation data only.
-
-## Training curves
-```python
-from plot_results import plot_history
-plot_history(ft_history, "outputs/finetune_history.png", "EfficientNet fine-tuning")
-```
-
-The exact variable names in your active notebook may differ. Do not claim these
-examples have been executed unless you run them successfully.
+## Troubleshooting
+| Symptom | Fix |
+|:---|:---|
+| `tf.function only supports singleton tf.Variables` | augmentation layers must be created once, outside the mapped function (already done in `data.py`) |
+| Out-of-memory on the GPU | lower `BATCH_SIZE` in `src/config.py` |
+| No metadata CSV found | pass the folder that contains `sample_labels.csv` |
+| Very low F1 at 0.5 | expected; use the validation-tuned thresholds |

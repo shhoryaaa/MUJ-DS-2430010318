@@ -1,7 +1,10 @@
-Experiment,Macro AUC (classes>=10 pos),Macro F1,Micro F1,Trainable params,Total params,Train min
-EfficientNetV2B0 (baseline),0.6955,0.1361,0.2272,3088894.0,5942366.0,16.6
-DenseNet121 + ASL,0.718,0.181,0.2041,5169166.0,7055950.0,27.5
-Proposed ensemble,0.7312,0.1843,0.2201,10139196.0,12998316.0,46.9
-"Baseline CNN (yours, Cell 18)",0.5852,,,,,
-"CheXNet, Rajpurkar et al. 2017 [published, FULL 112k dataset]",FILL FROM PAPER,,,,,
-"Wang et al. 2017, ChestX-ray8 [published, FULL 112k dataset]",FILL FROM PAPER,,,,,
+Experiment,Macro AUC (classes>=10 pos),Macro F1,Micro F1,Trainable params,Total params,Train min,Evaluation data
+Baseline CNN (from scratch; 12 classes),0.5852,,,,,11.1,5606-image sample
+"EffNetV2B0 + BCE, 30% unfrozen (reference)",0.6955,0.1361,0.2272,3088894,5942366,16.6,5606-image sample
+"+A  asymmetric loss (ASL)",0.6972,0.1309,0.1804,3088894,5942366,20.5,5606-image sample
+"+A+B  deeper fine-tuning (60% unfrozen)",0.6958,0.1596,0.2125,4970030,5942366,19.4,5606-image sample
+"DenseNet121 + ASL (60% unfrozen)",0.718,0.181,0.2041,5169166,7055950,27.5,5606-image sample
+"+A+B+C  proposed: EffNetV2B0 + DenseNet121 ensemble",0.7312,0.1843,0.2201,10139196,12998316,46.9,5606-image sample
+"CheXNet (Rajpurkar et al. 2017), mean over the same 12 classes",0.8412,,,,,,full 112120 images
+"Yao et al. 2017, mean over the same 12 classes",0.8009,,,,,,full 112120 images
+"Wang et al. 2017 (ChestX-ray8), mean over the same 12 classes",0.7445,,,,,,full 112120 images

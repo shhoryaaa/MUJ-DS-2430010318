@@ -1,0 +1,15 @@
+disease,threshold,tp,fp,fn,tn,test_positives
+Atelectasis,0.11,22,117,50,637,72
+Cardiomegaly,0.09,3,8,9,806,12
+Effusion,0.31,35,97,61,633,96
+Infiltration,0.13,95,457,48,226,143
+Mass,0.11,5,45,38,738,43
+Nodule,0.09,12,95,34,685,46
+Pneumonia,0.05,3,56,6,761,9
+Pneumothorax,0.23,12,39,25,750,37
+Consolidation,0.05,16,161,18,631,34
+Edema,0.21,3,27,16,780,19
+Emphysema,0.11,1,10,19,796,20
+Fibrosis,0.05,1,30,11,784,12
+Pleural_Thickening,0.07,5,104,18,699,23
+Hernia,0.05,0,2,1,823,1

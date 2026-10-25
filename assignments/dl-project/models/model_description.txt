@@ -1,1 +1,6 @@
-EfficientNetV2B0 / DenseNet121 (ImageNet) + GAP-BN-Dropout-Dense(14,sigmoid). See README.
+Final saved model: Model 4 - EfficientNetV2B0 (ImageNet) fine-tuned, then trained with binary focal loss (gamma 2.0, alpha 0.25).
+Input 224 x 224 x 3 float32 in [0, 255]. Head: GlobalAveragePooling2D -> BatchNormalization -> Dropout(0.3) -> Dense(14, sigmoid).
+Parameters: 5,942,366 (backbone 5,919,312; head 23,054). Output order: Atelectasis, Cardiomegaly, Effusion, Infiltration, Mass, Nodule, Pneumonia, Pneumothorax, Consolidation, Edema, Emphysema, Fibrosis, Pleural_Thickening, Hernia.
+Per-disease decision thresholds (validation-selected) are in optimized_thresholds.json.
+Test macro ROC-AUC 0.7012; macro F1 0.1526 at the tuned thresholds. The weights file (*.keras) is excluded from git (see .gitignore) because of its size; it is part of the course ZIP.
+Educational use only - not a medical device.
