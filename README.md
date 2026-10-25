@@ -5,7 +5,6 @@
 | Student | Shhorya Agarwal |
 | Registration number | 2430010318 |
 | Branch / section | Data Science / D |
-| Batch | Batch F |
 | GitHub username | [shhoryaaa](https://github.com/shhoryaaa) |
 | Project title | Multi-Label Chest X-Ray Disease Classification Using EfficientNetV2, Transfer Learning, Fine-Tuning and Explainable AI |
 | Training programme | Manipal University Jaipur (MUJ) - B.Tech Data Science - Batch F capstone / project training programme (GitHub-based submission) |
