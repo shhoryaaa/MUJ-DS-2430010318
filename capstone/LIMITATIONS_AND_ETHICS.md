@@ -1,36 +1,25 @@
-# Limitations, Ethics and Responsible Use
+# Limitations and ethics
 
-## Dataset and labels
-The project uses a sample of NIH ChestX-ray14. The findings are dataset labels,
-not independent diagnoses made for this project. Label noise and incomplete
-annotations can affect training and evaluation.
+## Data and labels
+* **Size.** 5,606 of 112,120 images; 7 diseases have fewer than 25 test positives, Hernia exactly one. Their metrics are statistically fragile (see the confidence intervals).
+* **Weak labels.** Labels come from text mining of radiology reports; they are not pixel-verified. "Infiltration" is an especially vague term.
+* **Single split, single seed.** No cross-validation; no between-run variance.
+* **Thresholds on small validation sets** (for example 2 Hernia positives) are noisy.
+* **Not comparable one-to-one with the literature** (different training set, split and resolution).
 
-## Class imbalance
-Rare labels can have very few positive test cases. AUC and F1 estimates may be
-unstable when positive support is low. Report support alongside each metric.
+## Fairness and population
+The sample contains 3,134 men and 2,472 women (55.9% / 44.1%) and a hospital population from one institution. Performance by sex, age and view position (AP versus PA) was not analysed; AP films are typical for sicker, bedridden patients and may act as a shortcut.
 
-## Generalization
-A sample from one dataset does not demonstrate performance at a different hospital.
-Equipment, patient populations, acquisition settings and reporting practices can
-shift. External validation is necessary before clinical claims.
+## Privacy and data governance
+The NIH images are publicly released and de-identified by the NIH Clinical Center. This repository contains no raw images, only aggregated results and figures derived from them. The terms of the dataset on Kaggle must be respected when re-using it.
 
-## Data leakage
-Patient-level separation is important. Any future preprocessing, deduplication,
-threshold selection or model selection must preserve the test set as a final
-unseen evaluation partition.
+## Safe use
+* The model is **not a medical device**, has not been clinically validated and must not be used to diagnose or exclude disease.
+* At the tuned thresholds the macro precision is 0.12: most alarms are false. A clinical setting would need operating points chosen with clinicians.
+* Probabilities are not calibrated risks. Grad-CAM maps are exploratory and do not prove clinical reasoning.
+* Automation bias: users may over-trust a confident output; any deployment would require human review, monitoring and prospective evaluation.
 
-## Explainability
-Grad-CAM is an approximate visualization. A heatmap can look plausible without
-faithfully explaining all model behavior. Use it for inspection, not as proof
-of correctness or causality.
+## Honest reporting statement
+All numbers in this repository were produced by one recorded run and are reproduced as printed; the earlier README of this repository contained inflated figures and has been corrected in the final update. Derived values (confusion counts, confidence intervals, lifts, SOTA means) are computed in code from the recorded numbers, with integrity checks against totals logged by the notebook.
 
-## Clinical safety
-This project is a learning and research prototype. It must not be used to diagnose,
-triage or treat patients. A qualified clinician must not rely on these predictions
-without validated clinical systems and appropriate oversight.
-
-## Privacy and repository hygiene
-Do not commit patient-identifiable information, raw medical images unless the
-dataset license and institutional policy explicitly permit redistribution, tokens,
-credentials, or private data. Keep large datasets and model weights outside Git
-unless their size and distribution terms are suitable.
+> **Medical disclaimer.** Educational research project. The model is not a medical device and must not be used for diagnosis or treatment decisions.
