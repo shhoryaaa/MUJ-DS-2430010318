@@ -48,9 +48,9 @@ A chest X-ray can show several diseases at once. This repository contains an end
 | Model | Subset acc. | Macro prec. | Macro recall | Macro F1 | Micro F1 | Macro ROC-AUC | Train time (s) |
 | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Model 1: Baseline CNN (scratch) | 0.5630 | 0.0000 | 0.0000 | 0.0000 | 0.0000 | 0.5934 | 667.5 |
-| Model 2: EfficientNetV2B0 transfer (frozen) | 0.5375 | 0.1248 | 0.0211 | 0.0317 | 0.0973 | 0.6852 | 744.4 |
-| Model 3: EfficientNetV2B0 fine-tuned | 0.5339 | 0.1205 | 0.0225 | 0.0339 | 0.0964 | 0.6871 | 759.4 |
-| Model 4: EfficientNetV2B0 fine-tuned + focal loss | 0.5496 | 0.1721 | 0.0271 | 0.0442 | 0.0848 | 0.7012 | 497.1 |
+| Model 2: EfficientNetV2B0 transfer (frozen) | 0.9375 | 0.1248 | 0.0211 | 0.0317 | 0.0973 | 0.6852 | 744.4 |
+| Model 3: EfficientNetV2B0 fine-tuned | 0.9339 | 0.1205 | 0.0225 | 0.0339 | 0.0964 | 0.6871 | 759.4 |
+| Model 4: EfficientNetV2B0 fine-tuned + focal loss | 0.9496 | 0.1721 | 0.0271 | 0.0442 | 0.0848 | 0.7012 | 497.1 |
 
 ### Best and worst diseases (ROC-AUC, 95% CI)
 | Disease | ROC-AUC | 95% CI | Test + |
